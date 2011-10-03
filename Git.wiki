@@ -5,6 +5,7 @@ I automatically push my entire wiki to https://github.com/concretevitamin/person
 * CRLF/LF problem, check [http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf this] out.
 * Viewing the Commit History, [http://progit.org/book/ch2-3.html here].
 * Alias: http://progit.org/book/ch2-7.html
+* Dealing with “non-fast-forward” errors: check out the "Dealing with “non-fast-forward” errors" section [http://help.github.com/remotes/ here].
 
 == Frequently Used Commands ==
 * git show --pretty="format:" --name-only % alias lf (last files)
@@ -12,4 +13,4 @@ I automatically push my entire wiki to https://github.com/concretevitamin/person
     * git comm 'MSG' --amend
 -----
 %title Git - Covi
-Last Modified: October 03, 2011 15:00:55 
+Last Modified: October 03, 2011 15:16:31 
