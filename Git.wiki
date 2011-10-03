@@ -1,3 +1,5 @@
+I automatically push my entire wiki to https://github.com/concretevitamin/personal-wiki.
+
 [http://progit.org/book/ Pro Git], THE tutorial.
 
 * CRLF/LF problem, check [http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf this] out.
@@ -10,4 +12,4 @@
     * git comm 'MSG' --amend
 -----
 %title Git - Covi
-Last Modified: October 03, 2011 14:06:14 
+Last Modified: October 03, 2011 14:11:55 
