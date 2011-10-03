@@ -1,0 +1,259 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+<title>My VIMRC File</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1 id="toc_1">My .vimrc File</h1>
+<p>
+Last Modified: Apr 01, 2011 11:06:29
+<hr />
+</p>
+<pre>
+" load scripts with vundle
+
+"set rtp+=~/.vim/vundle.git/
+"call vundle#rc()
+"
+"Bundle "git://git.wincent.com/command-t.git"
+"Bundle "https://github.com/drmingdrmer/xptemplate-dist.git"
+"Bundle "https://github.com/spicycode/slimv.vim.git"
+"Bundle "https://github.com/scrooloose/nerdtree.git"
+"Bundle "https://github.com/tomtom/tcomment_vim.git"
+"Bundle "https://github.com/tpope/vim-markdown.git"
+"Bundle "https://github.com/tpope/vim-surround.git"
+"Bundle "ikiwiki-nav"
+"Bundle "ikiwiki-syntax"
+"Bundle "LustyExplorer"
+"Bundle "molokai"
+"Bundle "SearchComplete"
+"Bundle "taglist"
+"Bundle "The-NERD-Commenter"
+"Bundle "restart.vim"
+"Bundle "VimClojure"
+
+filetype on
+filetype plugin indent on
+" tab and shift (pep-8)
+set expandtab
+set smarttab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+"
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+"" search and replace
+set incsearch
+set smartcase
+set sm
+
+set autowrite
+set ruler
+
+set history=50      " keep 50 lines of command line history
+
+set hidden
+set modeline
+
+"" appearance
+set guifont=Consolas:h10:cANSI
+set background=dark
+set t_Co=256
+let g:molokai_original=1
+colorscheme wombat
+set lines=110
+set columns=85
+winpos 0 0
+
+set ruler            " show the cursor position all the time
+set nu
+set cursorline
+set showcmd          " display incomplete commands
+
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+
+set viminfo='10,\"100,:20,%,n~/.viminfo
+
+"set laststatus=2
+
+set statusline=
+set statusline+=%f\ %2*%m\ %1*%h
+set statusline+=%#warningmsg#
+set statusline+=%*
+set statusline+=%r%=[%{&amp;encoding}\ %{&amp;fileformat}\ %{strlen(&amp;ft)?&amp;ft:'none'}]\ %12.(%c:%l/%L%)
+set laststatus=2
+
+" When started as "evim", evim.vim will already have done these
+" settings.
+if v:progname =~? "evim"
+  finish
+endif
+
+" Switch syntax highlighting on, when the terminal has colors
+" Also switch on highlighting the last used search pattern.
+if &amp;t_Co &gt; 2 || has("gui_running")
+  syntax on
+endif
+
+set autoindent
+
+"" Only do this part when compiled with support for autocommands.
+"if has("autocmd")
+"  set autoindent
+"
+"  " Enable file type detection.
+"  " Use the default filetype settings, so that mail gets 'tw' set to 72,
+"  " 'cindent' is on in C files, etc.
+"  " Also load indent files, to automatically do language-dependent
+"  " indenting.
+"  filetype plugin indent on
+"
+"  " Put these in an autocmd group, so that we can delete them easily.
+"  augroup vimrcEx
+"  au!
+"
+"
+"  " When editing a file, always jump to the last known cursor position.
+"  " Don't do it when the position is invalid or when inside an event
+"  " handler
+"  " (happens when dropping a file on gvim).
+"  autocmd BufReadPost *
+"    \ if line("'\"") &gt; 0 &amp;&amp; line("'\"") &lt;= line("$") |
+"    \   exe "normal g`\"" |
+"    \ endif
+"
+"  augroup END
+"
+"    autocmd FileType text set textwidth=78 formatoptions+=tcqn ai
+"
+"    autocmd FileType c,cpp set formatoptions=coqan
+"        \ cindent comments=sr:/*,mb:*,ex:*/,://
+"    autocmd FileType c,cpp set foldmethod=syntax
+"    autocmd FileType c,cpp syn region cBlock start="{" end="}"
+"                \ transparent fold
+"
+"    autocmd FileType python set formatoptions=tcql
+"    autocmd FileType python set textwidth=78
+"    autocmd FileType python map &lt;F2&gt; :!python %&lt;cr&gt;
+"
+"    autocmd FileType mail set formatoptions=tcnq
+"    autocmd FileType tex set textwidth=78
+"    autocmd FileType tex set sw=2 sts=2 ts=2
+"
+"    autocmd FileType python set omnifunc=pythoncomplete#Complete
+"    autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+"    autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+"    autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+"    autocmd FileType c set omnifunc=ccomplete#Complete
+"
+"    autocmd FileType gitcommit DiffGitCached | wincmd L
+"
+"else
+"  set autoindent        " always set autoindenting on
+"endif " has("autocmd")
+
+if has("multi_byte")
+     set encoding=utf-8
+     setglobal fileencoding=utf-8
+     set termencoding=utf-8
+else
+     echoerr "Sorry, this version of (g)vim was not compiled with +multi_byte"
+endif
+
+" automatically give executable permissions if file begins with #! and
+" contains '/bin/' in the path
+
+function ModeChange()
+  if getline(1) =~ "^#!"
+    if getline(1) =~ "/bin/"
+      silent !chmod a+x &lt;afile&gt;
+    endif
+  endif
+endfunction
+
+inoremap jj &lt;esc&gt;
+
+nnoremap &lt;silent&gt; &lt;F4&gt; :NERDTreeToggle&lt;CR&gt;
+
+" spell checker
+
+map &lt;F9&gt; &lt;Esc&gt;:setlocal nospell&lt;CR&gt;
+map &lt;F10&gt; &lt;Esc&gt;:setlocal spell spelllang=en_gb&lt;CR&gt;
+map &lt;F11&gt; &lt;Esc&gt;:setlocal spell spelllang=de_20&lt;CR&gt;
+
+nnoremap &lt;M-o&gt; o&lt;ESC&gt;
+nnoremap ,&lt;S-o&gt; &lt;S-o&gt;&lt;ESC&gt;
+
+
+
+" re-mapping C-c and C-v for custumary use
+" use C-q for C-v's original meaning (block-wise visual)
+nmap &lt;C-V&gt; "+gP
+imap &lt;C-V&gt; &lt;ESC&gt;&lt;C-V&gt;i
+vmap &lt;C-C&gt; "+y 
+
+" piaip's gvim settings for gvim/win32 with UTF8
+" optimized for Traditional Chinese users
+" last update: Mon Jun  7 17:59:54 CST 2004
+let $LANG="en" " locales
+set encoding=utf-8      " ability
+set fileencoding=utf-8   " prefer
+" charset detect list. ucs-bom must be earlier than ucs*.
+set fileencodings=utf-8,ucs-2,ucs-le,sjis,big5,latin1,gbk
+
+" for console mode we use big5
+if has("gui_running")
+    set termencoding=utf-8
+else
+    set termencoding=big5
+endif
+
+" vim:ft=vim
+
+" vimwiki stuff
+let g:vimwiki_use_mouse = 1
+let g:vimwiki_list = [{'path': 'D:/Soft/Dropbox/SU_Wiki/',
+\ 'path_html': 'D:/Soft/Dropbox/SU_Wiki/html/',
+\ 'html_header': 'D:/Soft/Dropbox/SU_Wiki/template/header.tpl'},
+\ {'path': 'D:/Soft/Dropbox/Wiki/',
+\ 'path_html': 'D:/Soft/Dropbox/Wiki/html/',
+\ 'html_header': 'D:/Soft/Dropbox/Wiki/template/header.tpl'}]
+map &lt;S-F4&gt; :VimwikiAll2HTML&lt;CR&gt;
+map &lt;F4&gt; :Vimwiki2HTML&lt;CR&gt; 
+
+" press &lt;\v&gt; to open vimrc file
+nmap &lt;Leader&gt;v :tabedit $MYVIMRC&lt;CR&gt;
+
+" press F5 get the current datestamp
+nnoremap &lt;F5&gt; 3wv$x"=strftime("%c")&lt;CR&gt;p
+
+" restart.vim
+let g:restart_command='Res'
+let g:restart_save_window_values=1
+
+" Calendar.vim
+map &lt;F8&gt; :Calendar&lt;CR&gt;
+
+set hls
+
+:map &lt;F2&gt; :set nohls
+:map &lt;F3&gt; :set hls
+:map &lt;F6&gt; :NERDTree&lt;CR&gt;
+
+nmap j gj
+nmap k gk
+
+" Use case insensitive search, except when using capital letters
+set ignorecase
+set smartcase
+
+"nnoremap ; :
+"nnoremap : ;
+</pre>
+
+</body>
+</html>

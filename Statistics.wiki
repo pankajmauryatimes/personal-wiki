@@ -1,0 +1,147 @@
+[[Tests on Ti-84]]
+
+= General Notes =
+* Look for reasons behind modes and outliers.
+* _Normal distribution_: bell-shaped, symmetric, has an infinite base.
+* t-distribution: used when the population standard deviation is unknown. Conditions: population is normal OR n is large enough (>= 30).
+* z-distribution: normal distribution. Used when the population standard deviation is known.
+
+= Questions =
+# What's the difference between _Bar Charts_ and _Histograms_?
+
+= Topics Notes =
+*Topic 1: Graphical Displays*<br />
+* Dotplots (qualitative; i.e. categorical)
+* Bar Charts (qualitative; i.e. categorical)
+* *Histogram 直方图*: use Frequency or Relative Frequency. Data fall in a interval, missing _exact values_.
+* *Cumulative Frequency Plots (ogive)*
+* Stemplots: gives the shape of histogram, but also indicates exact values.
+* Center, Spread (described together)
+* Cluster, Gap
+  * Outliers: extreme value.
+* Modes: peaks. (unimodal, bimodal, etc.)
+* Shape: _symmetric_, _skewed to left/right_.
+
+*Topic 2: Summarizing Distributions*
+* median, mean
+* variability, or dispersion, of the measurements
+  * range, difference between maximum and minimum
+  * interquartile range, IQR, diff between max and min after removing the lower and upper quarters, i.e., range of middle 50%
+    * often, values outside 1.5 * IQR are considered as outliers.
+    * Q1, Q3
+  * variance, 方差
+  * standard deviation, 标准差, square root of the variance
+* simple ranking; percentile ranking; z-score (= (Value - Mean) / (Standard_deviation))
+  * deciles, 10% and 90%
+* empirical rule (applied to bell-shaped data): 68, 95, 99.7 (symmetric bell-shaped data); standard deviation is between 1/4 and 1/6 of range.
+
+*Topic Four*
+* "The regression line for a residual plot is a horizontal line."
+  * Consider the original regression line as a transformed x-axis. Thus, the residuals (vertical distances) can be considered as equally distributed points near the x-axis, for they differ corresponding perpendicular distances from a trigonometric constant. Therefore, as long as the residuals are calculated from a linear regression line, the regression line for a residual plot is horizontal.
+* The correlation coefficient is not changed by adding the same number to each value of one of the variables or by multiplying each value of one of the variables by the same positive number. This can be proved by definitions.
+  * If multiplied by a negative number (= change the sign of the slope to be minus), r' is negative.
+* Use `Range / 4` to estimate standard deviation.
+* `R-Sq` imples R (correlation) squared, namely coefficient of determination.
+
+*Topic 6*
+* A sample survey is an observational study, but not an experiment.
+* Control group (对照组): untreated.
+* If treatments are imposed, experiments take place.
+
+*Topic 9*
+* `2nd+DISTR -> binompdf(numtrials, p: success, x: number of successes)`, binomial probability.
+  * `binomcdf(n, p, x)`: at least x successes.
+* 1 billion = 10^9.
+* variance of X = `Sum{(x_i - u)^2*p_i}`.
+* Independent -> no overlapping.
+* Insurance companies make a profit because of: the law of large numbers.
+* `P(A intersect B)` means that both A and B occur; `P(A union B)` means that either A or B or both occur.
+* Mean of binomial variable X = `np`, where `n` is number of trials and `p` is probability of success.
+* The histogram of a binomial distribution with p = .9 is almost symmetric if n is very large. The histogram of a binomial distribution with p = .5 is always symmetric no matter what n, the number of trials, is. The histogram of a binomial distribution with p = .9 is skewed to the left.
+* [[Summary of transforming and combining variables]]
+ 
+*Topic 10: Normal Distribution*
+* Normal Distribution: unimodal + symmetric.
+* When `np > 10` and `n(1-p) > 10`, we can use Normal to estimate Binomial.
+
+*Topic 11: Sampling Distribution*
+* The larger the sample, the smaller the spread in sampling distribution.
+* If population size >> sample size, the spread of the sampling distribution is about the same no matter what the population size.
+
+* *Sample Means*
+  - mean: Mu, std: STD/sqrt(n)
+* *Sample Proportions*
+  - mean: p, std: sqrt(p(1-p)/n)
+  - this distribution makes use of using normal to estimate binomial.
+  - conditions: np & n(1-p) > 10 (when this is satisfied, the dis is close to normal); simple random sample; n <= 0.1 * N
+* *Difference of sample means*
+  - mean: Mu_1 - Mu_2, std: sqrt(STD1^2/n1 + STD2^2/n2)
+* *Difference of sample proportions*
+  - mean: p_1 - p_2; std: sqrt(p1(1-p1)/n1 + p2(1-p2)/n2)
+  - conditions: all np and n(1-p) > 10.
+
+* The above four are all unbiased estimators because the means of their distribution are equal to the population parameters.
+* T-distributions are bell-shaped and symmetric, and have greater spread than the Normal distributions.
+  * The smaller the df value, the larger the dispersion in the distribution. The larger the df value, that is, the larger the sample size, the closer the distribution to the normal distribution.
+
+= Answers and Corrections =
+Topic Two
+{{{
+beabccdeab
+cee.aa.cdbd.c
+aaebaca.aba.
+ca
+1a
+10c
+13.: median is between Q1 and Q3
+14b: stupid mistake; mean > median implies skewed to the right
+15.: z-score = 1 implies percentile ranking 16%
+19e: stupid mistake
+26e: "A distribution spread far to the right side is said to be skewed to the right."
+27.: Both the dotplot and the stemplot are useful in identifying outliers.; Dotplots and stemplots retain the identity of individual scores; however, histograms and boxplots do not.
+30.: barcharts - categorical + individual identity
+}}}
+
+Topic Three
+{{{
+de.(II?)e.aa
+bcd
+2b: range is simply defined: max - min.
+3b: judgement of range of standard deviation
+7b: in parallel boxplots, if media is not in the middle of the box, we can judge whether it is skewed to the left or the right; no "skewed to both sides"
+}}}
+
+Topic Four
+{{{
+eab.d.d
+aeceb
+aae.e.c
+ae.bd.a.
+a.d.b.d.d.
+e.a.[.]b.ec.
+4 The correlation coefficient is not changed by adding the same number to each value of one of the variables or by multiplying each value of one of the variables by the same positive number.
+5e
+13c: An x-value that is an outlier in the x-variable is more indicative that a point is influential than a y-value that is an outlier in the y-value that is an outlier in the y-variable  is true...
+14d: "The regression line for a residual plot is a horizontal line." See the notes above.
+19e
+20: can't say sth like "XXX is Y times as linear as YYY"
+24b: Identify factual judgements and causations.
+25e: stupid mistake; regression lines do not necessarily pass through the points
+27e: For non linear models, r = 0.
+28a
+29: When transforming the variables leads to a linear relationship, the original variables have a nonlinear relationship, their correlation (which measures linearity) is not close to 1, and the residuals do not show a random pattern.
+31e
+}}}
+
+Topic 6
+{{{
+bd.e.ba.
+eaaca
+1e
+3a: In an experiment researchers decide how people are placed in different groups. In an observational study, the participants select which group they are in.
+10e
+}}}
+-------
+%title Statistics - Covi
+Created Date: Mar 23, 2011 9:34:21<br />
+Last Modified: May 08, 2011 11:40:22 

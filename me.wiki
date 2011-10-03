@@ -1,0 +1,23 @@
+= About Me =
+
+== Academic Interests ==
+* Math
+* Computer Science
+* Problem Solving
+
+== Objective ==
+    Explore the world of Computer Science and/or Mathematics; bring change to the world.
+<br />
+<br />
+<br />
+<br />
+
+== Programming and Computer Languages ==
+* C/C++, Java, Pascal, and some Python.
+* CSS, PHP, and anything that is well documented online.
+* I self-learned algorithms and data structures starting from 7th Grade when I was free.
+
+------
+%title About Me - Covi
+Created Date: Feb 07, 2011 21:49:20<br />
+Last Modified: August 26, 2011 10:01:33 

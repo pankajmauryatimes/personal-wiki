@@ -1,0 +1,36 @@
+= AS, AD, GPD =
+* `GDP = C (consumption) + I (investment) + G (government purchases) + (Exports - Imports)`
+* Aggregate damand has the same components of GPD; thus AD = C + I + G + X - M.
+* AD up, Y up, MD up.
+
+= Fiscal =
+* Spending multiplier: d(expenditure) * spending multiplier = d(real gdp)
+* Government spending multiplier
+* Tax multiplier = -MPC/MPS.
+* Balanced budget multiplier (used when G and T simultaneously increase or decrease by the same amount) = 1.
+* Expansionary: G up or T down => AD up => Y up => MD up => r up => I down => Y down.
+  * r up => increased demand for the domestic currency for investment purposes => appreciation of the domestic currency => export down, import up => net exports down, partially offsetting the initial expand.
+  * final effect: r up, Y up, I down.
+  * expansionary fiscal policies will move the economy towards deficit (since G up or T down).
+
+= Monetary =
+* Deficit = G - T
+* Money Multiplier: total deposit = new deposit * money multiplier.
+  * = 1/(required reserve ratio)
+* Expansionary: MS up => r down => I up => AD up => Y up => MD up => r up
+  * Final effect: r down, Y up, I up.
+  * Three ways to expand:
+    # decrease the required reserve ratio
+    # decrease the discount rate for banks
+    # buy bonds (securities)
+    
+= Monetary + Fiscal =
+* Two expansionary policies, for example, can be used together: fiscal(r up, I down) + monetary(r down, I up).
+
+= Formulae and Measures =
+* CPI = Total Cost of market basket this year / Total Cost of market basket last year
+  * If CPI down, that means the currency appreciates (use less amount of currency to purchase the same basket)
+------------
+%title Macroeconomics Notes - Covi
+Created Date: May 01, 2011 16:43:05<br />
+Last Modified: May 10, 2011 21:07:50 

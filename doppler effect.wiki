@@ -1,0 +1,16 @@
+{{{
+Observer Moving.
+df / f = v / v_w
+v: velocity of observer; v_w: velocity of wave
+
+approaches: f + df
+recedes: f - df
+
+
+
+Source Moving.
+dlamda / lamda = v / v_w
+
+approaches: lamda - dlamda
+recedes: lamda + dlamda
+}}}

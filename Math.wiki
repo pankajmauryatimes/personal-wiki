@@ -1,0 +1,27 @@
+= Math =
+
+*Read List*
+* http://math.stackexchange.com/questions/11002/cn-p-even-or-odd
+
+[[calculus][Calculus]]
+
+*Functions*
+* For a function _f_, `x |-> y` means `f(x) = y`. (\mapsto 映射到)
+* A function whose domain is limited to real numbers can be written as a sum of an even function and an odd function. See: http://math.stackexchange.com/questions/5274/how-do-i-divide-a-function-into-even-and-odd-sections
+
+*Inequalities*:
+[[power means inequality]]
+
+*Theorems*
+* [http://en.wikipedia.org/wiki/Fermat's_little_theorem Fermat's little theorem], a^p = a (mod p).
+* Newton's series.
+
+*Math Majoring*
+* http://cn.mgccl.com/2011/03/cv-qu-kan, mgccl.
+
+*Books*<br />
+[http://math.stackexchange.com/questions/27480/what-are-good-books-to-learn-graph-theory Graph Theory] [http://math.stackexchange.com/questions/15201/good-book-on-combinatorics Combinatorics] [[Set Theory]]
+-------
+%title Math - Covi
+Date Created: Feb 19, 2011 9:03:42<br />
+Last Modified: August 28, 2011 23:08:35 

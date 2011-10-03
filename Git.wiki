@@ -1,0 +1,4 @@
+CRLF/LF problem, check [http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf this] out.
+-----
+%title Git - Covi
+Last Modified: October 03, 2011 12:51:25 

@@ -1,0 +1,5 @@
+{{{
+L = lamda_1 / 2 = lamda_2 = 3 * lamda_3 / 2
+
+The ratio of all frequencies equals the ratio of coefficients above.
+}}}

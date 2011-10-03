@@ -1,0 +1,4 @@
+{{{
+LinRegTTest
+    Chi-square test of slope of least squares regression line
+    gives P-value & a & b

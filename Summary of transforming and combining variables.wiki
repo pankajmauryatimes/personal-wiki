@@ -1,0 +1,10 @@
+{{{
+Transforming
+E(X \pm a) = E(X) \pm a,    var(X \pm a) = var(X),
+E(bX) = bE(X).              var(bX) = b^2 * var(X).
+
+Combining
+E(X \pm Y) = E(X) \pm E(Y),
+(X, Y independent) var(X \pm Y) = var(X) + var(Y).
+}}}
+

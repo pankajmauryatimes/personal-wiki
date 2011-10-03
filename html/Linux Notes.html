@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+<title>Linux Notes - Covi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1 id="toc_1">Linux Notes</h1>
+
+<h2 id="toc_1.1">TO-DO SPACE</h2>
+<p>
+screen, tmux, conqueterm vim plugin, awesome
+</p>
+
+<h2 id="toc_1.2">Commands</h2>
+<p>
+<strong>ls</strong><br />
+<code>ls -a</code> # <code>.</code> before files/directories names means they are hidden files/directories.<br />
+<code>ls -l</code> # to show the file types.<br />
+</p>
+
+<p>
+<code>cat</code> # concatenate files and print on standard output.<br />
+<code>df</code> (<em>disk full</em> or <em>disk free</em>) # display information about the partitions and their mount points<br />
+<code>which</code> # to see where a command locates<br />
+<code>pwd</code> # print name of current/working directory<br />
+<code>tar</code> # archive. (tar -zcvf archive-name.tar.gz directory-name)<br />
+<code>mv</code>, <code>cp</code>, <code>mkdir</code>, <br />
+<a href="find.html">find</a>
+</p>
+
+<h2 id="toc_1.3">Web Browsing</h2>
+<p>
+<strong>firefox (vimperator)</strong><br />
+Create VIMRC file under HOME and name it <code>.vimperatorrc</code>.<br />
+</p>
+
+<h2 id="toc_1.4">Partition, Structure</h2>
+<p>
+<strong>File System Structure</strong><br />
+<code>/bin</code> # 	Common programs, shared by the system, the system administrator and the users.<br />
+<code>/boot</code> # 	The startup files and the kernel, vmlinuz. In some recent distributions also grub data. Grub is the GRand Unified Boot loader and is an attempt to get rid of the many different boot-loaders we know today.<br />
+<code>/dev</code> # 	Contains references to all the CPU peripheral hardware, which are represented as files with special properties.<br />
+<code>/etc</code> # 	Most important system configuration files are in <code>etc</code>, this directory contains data similar to those in the Control Panel in Windows<br />
+<code>/home</code> # 	Home directories of the common users.<br />
+<code>/initrd</code> # 	(on some distributions) Information for booting. Do not remove!<br />
+<code>/lib</code> # 	Library files, includes files for all kinds of programs needed by the system and the users.<br />
+<code>/lost</code> # +found	Every partition has a lost+found in its upper directory. Files that were saved during failures are here.<br />
+<code>/misc</code> # 	For miscellaneous purposes.<br />
+<code>/mnt</code> # 	Standard mount point for external file systems, e.g. a CD-ROM or a digital camera.<br />
+<code>/net</code> # 	Standard mount point for entire remote file systems<br />
+<code>/opt</code> # 	Typically contains extra and third party software.<br />
+<code>/proc</code> # 	A virtual file system containing information about system resources. More information about the meaning of the files in proc is obtained by entering the command man proc in a terminal window. The file proc.txt discusses the virtual file system in detail.<br />
+<code>/root</code> # 	The administrative user's home directory. Mind the difference between /, the root directory and <code>root</code> # , the home directory of the root user.<br />
+<code>/sbin</code> # 	Programs for use by the system and the system administrator.<br />
+<code>/tmp</code> # 	Temporary space for use by the system, cleaned upon reboot, so don't use this for saving any work!<br />
+<code>/usr</code> # 	Programs, libraries, documentation etc. for all user-related programs.<br />
+<code>/var</code> # 	Storage for all variable files and temporary files created by users, such as log files, the mail queue, the print spooler area, space for temporary storage of files downloaded from the Internet, or to keep an image of a CD before burning it.<br />
+</p>
+
+<p>
+<code>man hier</code> read more on the file system hierarchy.<br />
+</p>
+
+<h2 id="toc_1.5">(General) Notes</h2>
+<p>
+<code>#</code> Check out <code>man gnome-</code> and press <code>&lt;Tab&gt;</code>.<br />
+<code>#</code> Use S+ page up/down to scroll up and down in terminal.<br />
+</p>
+
+<hr />
+<p>
+Created Date: Feb 17, 2011 23:00:39<br />
+Last Modified: August 29, 2011 22:27:36 
+</p>
+
+</body>
+</html>

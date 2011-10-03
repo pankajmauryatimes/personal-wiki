@@ -1,0 +1,14 @@
+{{{
+05 Q4
+09 Q6
+
+只需联立
+d * sin(theta) = m * lamda
+sin(theta) \approximate tan(theta) = x / L
+来求 d
+
+m, an integer
+x, distance between adjacent bright fringes
+L, long distance between the slit and the screen
+}}}
+

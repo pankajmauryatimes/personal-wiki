@@ -1,0 +1,6 @@
+{{{
+Rutherford's scattering
+
+(1) The majority of any atom is empty space.
+(2) The atom’s positive charge is present in a small, dense nucleus.
+}}}

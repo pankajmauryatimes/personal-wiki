@@ -1,0 +1,52 @@
+= Welcome to Covi's Personal Knowledge Base Wiki! =
+
+[[http://geotakucovi.com/avatar.jpg|Avatar]]
+
+My name is *Zongheng Yang*, a high school senior in [http://www.shenzhong.net Shenzhen Middle School], Shenzhen, China ([http://maps.google.com/maps?q=shenzhen,+china&hl=en&client=firefox-a&gl=us&z=10&vpsrc=0 Google Maps]). My usual nickname on the Web is *Covi*. If you need to contact me, my email is near the end of this page.
+
+This personal Wiki is constructed and maintained with [http://www.vim.org/ Vim] + [http://code.google.com/p/vimwiki/ Vimwiki], which mean I can add something to my personal knowledge base within no more than 10 additional keystrokes, and yes, no mouse needed.
+
+The Wiki records various aspects of my life and presents some of my interests.
+
+[[My Online Profile]]: This page contains what I share online.
+
+== ME ==
+* [[me][About Me]]
+* [[Reading][My Reading]]
+* [[Movies][Movies I've watched]]
+* [[music][Music I love]]
+* [[Pastebin][My Pastebin for Random Stuff]] (Only for personal use; not much value here.)
+  
+== Serious (or not so serious?) Stuff ==
+* [[Math]], notes on math.
+  * [[calculus][Calculus]], notes on calculus.
+* [[LaTeX]], notes on !LaTeX.
+* [[Linux Notes][Notes on Linux]].
+* [[Physics]].
+* [[Statistics]].
+* [[Microeconomics]].
+* [[Macroeconomics]].
+* [[AP Computer Science]]; In Fall 2011 I will be a TA for the AP Computer Science Class. Here contains notes and resources for my fellow classmates.
+* Computer Science: [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]].
+
+== Tools ==
+* [[Vim]]
+  * [[Vimwiki]], an extension for Vim that enables editting and maintaining a personal Wiki.
+  * [[Vimperator]], a Firefox extension that renders browsing utimately pleasant.
+* [[Filezilla]]
+* [[Irssi]], a solid [http://en.wikipedia.org/wiki/Internet_Relay_Chat IRC] client.
+* [[Git]]. I'm learning this powerful VCS.
+
+== Devices ==
+* [[Kindle]]. I am an ardent Kindle advocate.
+--------
+== Contact ==
+http://geotakucovi.com/mail0.png
+
+Besides, I use many Web 2.0 applications that make life easier.
+
+--------
+%title Covi's Personal Knowledge Base Wiki
+Created Date: Jan 31, 2011.<br />
+<!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
+Last Modified: October 03, 2011 12:51:07 

@@ -1,0 +1,88 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+<title>A Tricky Yank Task Study: How to deal with Kindle's Notes and Highlights using Vim - Covi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1 id="toc_1">A Tricky Yank Task Study</h1>
+
+<h2 id="toc_1.1">Task Description</h2>
+<pre>
+==========
+Frankenstein (Mary Wollstonecraft Shelley)
+- Highlight Loc. 23-24  | Added on 星期一, 一月 31, 2011, 09:04 下午
+
+nothing contributes so much to tranquillize the mind as a steady
+purpose--a point on which the soul may fix its intellectual eye.
+==========
+Frankenstein (Mary Wollstonecraft Shelley)
+- Note Loc. 50  | Added on 星期一, 一月 31, 2011, 09:13 下午
+
+Letter One talks about R. Walton is going to sea, heading to Russia,
+saying farewell to his sister Margaret.
+==========
+Frankenstein (Mary Wollstonecraft Shelley)
+- Highlight Loc. 92-93  | Added on 星期一, 一月 31, 2011, 10:08 下午
+
+I have often attributed my attachment to, my passionate enthusiasm
+for, the dangerous mysteries of ocean to that production of the most
+imaginative of modern poets.
+==========
+Frankenstein (Mary Wollstonecraft Shelley)
+- Note Loc. 99  | Added on 星期一, 一月 31, 2011, 10:11 下午
+
+Letter Two says Walton has engaged some seamen and a vessel, waiting
+to embark. He says he needs friends.
+</pre>
+
+<p>
+The above is a typical piece in <a href="Kindle.html">Kindle</a>'s My_Clipping.txt, which records all notes and highlights taken. The goal is to yank all notes of highlights text at one time.
+</p>
+
+<p>
+For example, if I am to yank all my notes in the above text, it should
+be:
+</p>
+
+<pre>
+Letter One talks about R. Walton is going to sea, heading to Russia,
+saying farewell to his sister Margaret.
+Letter Two says Walton has engaged some seamen and a vessel, waiting
+to embark. He says he needs friends.
+</pre>
+
+<h2 id="toc_1.2">Solution and Explanation</h2>
+<p>
+<code>:let @a=''|g/^=\{10\}\n.*\n- Note\&gt;/'}+;/^=\{10\}/-y A</code>
+</p>
+
+<ul>
+<li>
+<code>:let @a=''</code>
+</li>
+</ul>
+<p>
+empty register a; see <code>:h :let</code>.
+</p>
+<ul>
+<li>
+<code>|</code>
+</li>
+</ul>
+<p>
+end the previous Ex command and start a new one; see <code>h: :bar</code>.
+</p>
+<ul>
+<li>
+<code>\{10\}</code>
+</li>
+</ul>
+<p>
+matching ten times previous pattern. see <code>:h /\{</code>.
+<hr />
+Last Modified: Feb 05, 2011 22:49:08 
+</p>
+
+</body>
+</html>

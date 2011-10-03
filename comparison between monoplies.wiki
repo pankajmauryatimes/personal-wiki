@@ -1,0 +1,8 @@
+{{{
+Unregulated Monoply: P_a, X_a;
+Regulation of Natural Monopoly: P_b (pricing for fair return), X_b; more efficient.
+Regulation (subsidized): P_c (socially optimal price), X_c.
+
+P_a > P_b > P_c, X_a < X_b < X_c.
+}}}
+

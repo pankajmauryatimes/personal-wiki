@@ -1,0 +1,5 @@
+{{{
+in LR:
+1. P = ATC (but not minATC), therefore zero profits;
+2. P > minATC, not efficient.
+}}}

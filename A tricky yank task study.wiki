@@ -1,0 +1,55 @@
+= A Tricky Yank Task Study =
+
+== Task Description ==
+{{{
+==========
+Frankenstein (Mary Wollstonecraft Shelley)
+- Highlight Loc. 23-24  | Added on 星期一, 一月 31, 2011, 09:04 下午
+
+nothing contributes so much to tranquillize the mind as a steady
+purpose--a point on which the soul may fix its intellectual eye.
+==========
+Frankenstein (Mary Wollstonecraft Shelley)
+- Note Loc. 50  | Added on 星期一, 一月 31, 2011, 09:13 下午
+
+Letter One talks about R. Walton is going to sea, heading to Russia,
+saying farewell to his sister Margaret.
+==========
+Frankenstein (Mary Wollstonecraft Shelley)
+- Highlight Loc. 92-93  | Added on 星期一, 一月 31, 2011, 10:08 下午
+
+I have often attributed my attachment to, my passionate enthusiasm
+for, the dangerous mysteries of ocean to that production of the most
+imaginative of modern poets.
+==========
+Frankenstein (Mary Wollstonecraft Shelley)
+- Note Loc. 99  | Added on 星期一, 一月 31, 2011, 10:11 下午
+
+Letter Two says Walton has engaged some seamen and a vessel, waiting
+to embark. He says he needs friends.
+}}}
+
+The above is a typical piece in [[Kindle]]'s My_Clipping.txt, which records all notes and highlights taken. The goal is to yank all notes of highlights text at one time.
+
+For example, if I am to yank all my notes in the above text, it should
+be:
+
+{{{
+Letter One talks about R. Walton is going to sea, heading to Russia,
+saying farewell to his sister Margaret.
+Letter Two says Walton has engaged some seamen and a vessel, waiting
+to embark. He says he needs friends.
+}}}
+
+== Solution and Explanation ==
+`:let @a=''|g/^=\{10\}\n.*\n- Note\>/'}+;/^=\{10\}/-y A`
+
+* `:let @a=''`
+empty register a; see `:h :let`.
+* `|`
+end the previous Ex command and start a new one; see `h: :bar`.
+* `\{10\}`
+matching ten times previous pattern. see `:h /\{`.
+-------
+%title A Tricky Yank Task Study: How to deal with Kindle's Notes and Highlights using Vim - Covi
+Last Modified: Feb 05, 2011 22:49:08 

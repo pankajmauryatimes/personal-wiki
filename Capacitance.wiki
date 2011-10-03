@@ -1,0 +1,9 @@
+{{{
+In parallel-plates capacitor:
+E \propto Q/A;
+C \propto A/d;
+V \propto Qd/A;
+U_E = QV/2 = CV^2 / 2
+
+If a solid insulator is inserted into the air insulator, the capacitance will increase, thus decreasing the voltage.
+}}}

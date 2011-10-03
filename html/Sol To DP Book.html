@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+<title>Solutions to Problems in The Art and Theory of Dynamic Programming - Covi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1 id="toc_1">The Book</h1>
+<p>
+The Art and Theory of Dynamic Programming (<a href="http://www.amazon.com/dynamic-programming-Mathematics-Science-Engineering/dp/0122218604">Amazon</a>), by Stuart E. Dreyfuse and Averill M. Law.
+</p>
+
+<h1 id="toc_2">The Solutions</h1>
+
+<pre>
+1.1
+Let S(x, y) be the smallest distance from Point A (0, 0) to (x, y), and a_d(x, y)/a_u(x, y) be the distance of the arc down/up from (x, y).
+S(0, 0) = 0; Final answer: min{S(4, j)}
+S(x, y) = min{a_d(x - 1, y + 1) + S(x - 1, y + 1), a_u(x - 1, y - 1) + S(x - 1, y - 1)}
+
+1.2
+In addition to 1.1, denote r(x, y) as the "bonus value" at (x, y); all r(x, y) = 0 except those specified by the problem.
+
+S(x, y) = min{a_d(x - 1, y + 1) + S(x - 1, y + 1), a_u(x - 1, y - 1) + S(x - 1, y - 1)} + r(x, y).
+
+</pre>
+<hr />
+<p>
+Last Modified: September 19, 2011 00:05:09 
+</p>
+
+</body>
+</html>

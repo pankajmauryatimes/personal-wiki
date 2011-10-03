@@ -1,0 +1,15 @@
+= Calculus =
+
+== Rules, Definitions, Theorems about limits, derivatives, and integrals ==
+* [[epsilon-delta definition of limit]]
+* *L'Hôpital's Rule*; *Cauchy's mean value theorem*;
+  http://home.iitk.ac.in/~psraj/mth101/lecture_notes/lecture7.pdf 
+  * Use CMVT to prove L'Hopital. Notice that L'Hopital can handle a few cases, whereas the 0/0 case is the generic one.
+* [[Integration by parts]] (indefinite form & definite form).
+
+== Textbook ==
+* *Don't* use _*Thomas' Calculus*_ It has *disgusting arrangement of content*, and it is only for non-math-major students.
+----------
+%title Calculus Notes - Covi
+Created Date: Feb 19, 2011 9:05:00<br />
+Last Modified: Mar 19, 2011 21:14:01 

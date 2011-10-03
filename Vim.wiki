@@ -1,0 +1,43 @@
+= Vim Notes & Tricks =
+此处记录我使用 Vim 的笔记与心得。
+
+Check out my .vimrc [[vimrc][here]].
+
+* [[A tricky yank task study][Dealing with Kindle's My_Clipping.txt: A tricky yank task study]].
+
+*TO-DO STUFF*<br />
+# i'
+# a command that automatically save and/or quit all sessions
+
+== Basic Editting Stuff ==
+* If some lines are highlighted in visual mode (checkout `visual-mode`), press `J` to join them altogether.
+
+== Some Notes ==
+* I have read some help texts, many tutorials, and tried to program some simple task. But it seems very hard to get familiar with Vim scripts (Feb 03, 2011 13:48:33)
+
+== Substitution ==
+<nowiki>:s/\(\w\+\)/`\1` # /</nowiki>
+Change <nowiki>A B</nowiki> to <nowiki>`A` # B</nowiki>.<br />
+
+== Commands ==
+* Use `@:` to repeat last colon command.
+
+== Datestamp ==
+Add<br />
+    nnoremap <F5> 3wv$"=strftime("%c")<CR>P
+to your `VIMRC`. Place cursor on the head of "Last Modified" line and <F5>. See [[http://vim.wikia.com/wiki/Insert_current_date_or_time|also]]. 
+
+== Linux-related ==
+Use `vim-gtk` or `vim-gnome` under linux.<br />
+
+-------
+== Useful Links & Resouces ==
+# Some tutorial videos here (http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/).
+# http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/
+# http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-intermediate-tutorial-videos/
+# http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-advanced-tutorial-videos/
+# http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-plugin-showcase/  
+# http://www.linuxconfig.org/Vim_Tutorial 
+-------
+%title Vim Notes & Tricks - Covi
+Last Modified: Apr 01, 2011 11:05:40 

@@ -1,0 +1,106 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+<title>Vim Notes &amp; Tricks - Covi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1 id="toc_1">Vim Notes &amp; Tricks</h1>
+<p>
+此处记录我使用 Vim 的笔记与心得。
+</p>
+
+<p>
+Check out my .vimrc <a href="vimrc.html">here</a>.
+</p>
+
+<ul>
+<li>
+<a href="A tricky yank task study.html">Dealing with Kindle's My_Clipping.txt: A tricky yank task study</a>.
+</li>
+</ul>
+
+<p>
+<strong>TO-DO STUFF</strong><br />
+</p>
+<ol>
+<li>
+i'
+</li>
+<li>
+a command that automatically save and/or quit all sessions
+</li>
+</ol>
+
+<h2 id="toc_1.1">Basic Editting Stuff</h2>
+<ul>
+<li>
+If some lines are highlighted in visual mode (checkout <code>visual-mode</code>), press <code>J</code> to join them altogether.
+</li>
+</ul>
+
+<h2 id="toc_1.2">Some Notes</h2>
+<ul>
+<li>
+I have read some help texts, many tutorials, and tried to program some simple task. But it seems very hard to get familiar with Vim scripts (Feb 03, 2011 13:48:33)
+</li>
+</ul>
+
+<h2 id="toc_1.3">Substitution</h2>
+<p>
+&lt;nowiki&gt;:s/\(\w\+\)/<code>\1</code> # /&lt;/nowiki&gt;
+Change &lt;nowiki&gt;A B&lt;/nowiki&gt; to &lt;nowiki&gt;<code>A</code> # B&lt;/nowiki&gt;.<br />
+</p>
+
+<h2 id="toc_1.4">Commands</h2>
+<ul>
+<li>
+Use <code>@:</code> to repeat last colon command.
+</li>
+</ul>
+
+<h2 id="toc_1.5">Datestamp</h2>
+<p>
+Add<br />
+</p>
+<blockquote>
+nnoremap &lt;F5&gt; 3wv$"=strftime("%c")&lt;CR&gt;P
+</blockquote>
+<p>
+to your <code>VIMRC</code>. Place cursor on the head of "Last Modified" line and &lt;F5&gt;. See <a href="http_//vim.wikia.com/wiki/Insert_current_date_or_time.html">also</a>. 
+</p>
+
+<h2 id="toc_1.6">Linux-related</h2>
+<p>
+Use <code>vim-gtk</code> or <code>vim-gnome</code> under linux.<br />
+</p>
+
+<hr />
+<h2 id="toc_1.7">Useful Links &amp; Resouces</h2>
+<ol>
+<li>
+Some tutorial videos here (<a href="http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/">http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/</a>).
+</li>
+<li>
+<a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/</a>
+</li>
+<li>
+<a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-intermediate-tutorial-videos/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-intermediate-tutorial-videos/</a>
+</li>
+<li>
+<a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-advanced-tutorial-videos/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-advanced-tutorial-videos/</a>
+</li>
+<li>
+<a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-plugin-showcase/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-plugin-showcase/</a>  
+</li>
+<li>
+<a href="http://www.linuxconfig.org/Vim_Tutorial">http://www.linuxconfig.org/Vim_Tutorial</a> 
+</li>
+</ol>
+<hr />
+<p>
+Last Modified: Apr 01, 2011 11:05:40 
+</p>
+
+</body>
+</html>

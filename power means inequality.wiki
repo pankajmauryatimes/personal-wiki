@@ -1,0 +1,9 @@
+*Power Means M_r*:
+{{{
+= ((a_1^r + a_2^r + ... + a_n^r)/n)^(1/r)
+}}}
+
+*power means inequality*:
+{{{
+Given b < a, then M_b <= M_a. The equivalence holds iff a_1 = a_2 = ... = a_n.
+}}}

@@ -1,0 +1,25 @@
+{{{
+path difference equals (n + 1/2) * wavelength:
+2t = (n + 1/2) * lamda
+where
+t: thickness of the film
+lamda: wavelength in the film
+
+Notice that only reflected rays undergo a 180 degree phase change; refracted ones do not.
+
+
+    * If both reflections occur at interfaces of less/more, then both are inverted and their net phase difference is zero.
+    * If both reflections occur at interfaces of more/less, then neither is inverted and the net phase difference between them is zero.
+    * However, if one reflection occurs at less/more and the other at more/less, then there is a net phase difference between the reflections of ½ λ.
+    
+   less: small index of refraction (n) 
+
+Generally,
+n_1
+
+n_2
+
+n_3
+
+where n_1 < n_2 > n_3 (if n_1 < n_2 < n_3, no phase change will occur).
+}}}

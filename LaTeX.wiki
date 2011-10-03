@@ -1,0 +1,22 @@
+= !LaTeX =
+*To-do*
+# asymptote
+
+*Wrting Math Notes with LaTex*<br />
+# http://math.stackexchange.com/questions/17805/what-software-and-or-language-to-use-to-take-math-lecture-notes
+# http://sbseminar.wordpress.com/2010/02/25/chromatic-homotopy-ii-or-how-i-learned-to-stop-worrying-and-love-latexing-in-real-time/
+# http://amathew.wordpress.com/2010/07/07/my-adventure-in-live-texing-and-some-notes/ 
+
+*Q: How to align text in a table at both vertically and horizontally middle?*<br />
+A: Check this: [http://tex.stackexchange.com/questions/12703/fixed-width-column-with-text-centered-in-tabular/12704#12704]. On tables, check this: [http://en.wikibooks.org/wiki/LaTeX/Tables#Column_specification_using_.3E.7B.5Ccmd.7D_and_.3C.7B.5Ccmd.7D].
+
+*Important Issues*
+# Encode your `.tex` file by ANSI. Other fileencodings might result in compilation errors.<br />
+
+*Commands*<br />
+`\iff` `\implies` `\rightarrow`(used in limit) `approx`(approximately equal) `\forall` `\exists` `\sim`
+
+-----
+%title LaTeX - Covi
+Created Date: Mar 05, 2011 19:43:49<br />
+Last Modified: June 29, 2011 11:35:03 

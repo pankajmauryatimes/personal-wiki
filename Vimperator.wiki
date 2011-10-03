@@ -1,0 +1,9 @@
+= Vimperator =
+
+== Notes ==
+* When under Linux, Create VIMRC file under HOME and name it `.vimperatorrc`.
+
+-----------
+%title Vimperator - Covi
+Created Date: Feb 24, 2011 19:33:55<br />
+Last Modified: Feb 24, 2011 19:34:01 

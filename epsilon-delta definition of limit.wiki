@@ -1,0 +1,9 @@
+{{{
+Let ƒ be a function defined on an open interval containing c (except possibly at c) and let L be a real number. Then the formula
+
+    \lim_{x \to c}f(x) = L \, 
+
+means
+
+    for each real ε > 0 there exists a real δ > 0 such that for all x with 0 < |x − c| < δ, we have |ƒ(x) − L| < ε, 
+}}}

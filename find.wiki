@@ -1,0 +1,5 @@
+find -name NAME -exec rm -rf {} \; %remove files found<br />
+find . -perm 777 %find all files/directories with permission 777
+
+-----
+%title find Command - Covi

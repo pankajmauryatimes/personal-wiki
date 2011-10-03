@@ -1,0 +1,114 @@
+*TODO: Graphs!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*
+
+= Uncategorized =
+* comparative advantage: the one who has smaller opportunity cost of one product
+* returns to scale: refers to changes in output resulting from a proportional change in all inputs (where all inputs increase by a constant factor).
+* Demand curves for private goods are added *horizontally*; whereas those for public goods are added *vertically*.
+* cross-price elasticity = %d(quantity demanded of X) / %d(price of Y).
+  - < 0, compliments; > 0, substitutes.
+* Defining characteristic of a capitalistic economy: private ownership & protection of property rights.
+* progressive tax: more tax on richer, redistribute income; regressive: more tax on poor.
+* Opportunity cost of STH = direct price of STH + implicit cost
+* The substitution effect is when the price of one good rises, and the consumer buys more of the cheaper good.
+* The income effect is when the consumer cuts back on all goods, not simply the good that has become more expensive.
+* estate and gift taxes: if these taxes are high, they help achieve greater income equality.
+
+= Efficiency =
+* *efficiency in production*: MP_k / r = MP_l / w (MP = marginal product).
+* *distributive efficiency* (maximizing utility): Price_1 / Price_2 = MU_1 / MU_2 (MU = marginal utility)
+  * MU_1 / MU_2 -> marginal rate of substitution (MRS)
+  * formal condition: MRS are equal for every consumer.
+* *allocative efficiency*: P = MC (long run perfect competition).
+* *productive efficiency*: P = minATC
+  
+= Laws =
+* *law of diminishing marginal utility (short run)*: decreasing satisfaction gained from additional units of a good consumed in a given period.
+* law of demand; law of supply.
+* marginal cost will increase as the production expands (supply)
+* law of diminishing marginal product (consider the MP curve): first increase at increasing rate, then increase at decreasing rate, then decrease.
+
+= Demand and Supply =
+*Reasons behind shift of demand curve*:<br />
+*TRIBE*: *Taste* of consumers; prices of *Related* goods (substitutes and complements); *Income* of buyers; number of *Buyers*; *Expectations* for the future.<br />
+
+*Reasons behind rightward shift of supply curve*: anything that leads to more units of the good being produced at any given price.
+* decrease in input costs; improv. in tech.; expectations of lower prices in the future; increase in sellers; 
+* decrease in the price of a "substitue in production" (milk & cheese)
+* increase in the price of a "joint product" (leather & beef)<br />
+
+`*` if demand and supply shift together, one of eq. price & eq. quantity will be certain, the other depends (sometimes indeterminant)
+
+*Price Ceiling*:
+* to have effect, must below eq. price
+* may cause (1) queuing cost; (2) black market.
+
+*Price Floor*:
+* to have effect, must above eq. price
+* Example: minimum rage; some workers benefit, others are hurt
+
+= Costs, Production, Supply =
+* Values of a large-size firm: (1) hire more experts (2) spread over fixed costs over large outputs (3) economies of scale
+* Excess capacity exists whenever firms/markets don't operate at socially optimal level (P = MC).
+* PPF
+  - If resources are substitutable, PPF would be a straight line.
+  - Straght PPF implies no specialization; Curved PPF implies specialization.
+
+= Perfect Competition =
+* In LR: P = MR = MC = min ATC; zero profits.
+* In SR: only P = MR.
+* When `P > AVC`, continue production. When `MR > MC`, increase production.
+* MC curve is actually the firm's supply curve (representing at each price the quantity the firm is willing to supply).
+* In SR: Since P = MC and if P < AVC then firm will shut down, in SR the supply curve is actually the MC curve above the AVC.
+* In LR: the supply curve is actually the MC curve above the ATC.
+* *Demand increase* -> firms enter -> supply increase -> *price returns to original*, quantity supplied by industry increases; whereas quantity supplied by individual firm remains the same
+* Reasons that ATC is U-shaped: spreading total fixed cost over a larger output + eventually diminishing returns.
+
+= Monopoly =
+* *monopoly pricing power (control over prices; market power)*: P > MC; pricing strategy: P > MR.
+* break even = zero profits = fair return price.
+* socially optimal price = P = MC.
+* shut-down (short-run): P < AVC. exit (long run): P < ATC.
+* Reasons that price discrimination occurs:
+  # control over prices
+  # seperated buyers of differing price elasticities
+  # can prevent re-saling among buyers
+* [[comparison between monoplies]]
+
+= Monopolistic Competition =
+* [[Mono. Comp. in LR]]; LR normal profit.
+* economic profit in SR.
+
+= Oligopoly =
+* Cartel model: all the firms in the industry act in unison to set a monopoly price; e.g. OPEC.
+
+= Resource Markets with Applications to Labor =
+* MFC (marginal factor cost; supply S = MFC when in perfect competition) = MRC (marginal revenue cost)
+* *MRP (marginal revenue product; demand D = MRP = MP marginal product times P price) = MRC* is an analogy to *MR = MC*. If MRP > MRC, continue to hire additional units of labor.
+* wage elasticity of demand (= %d(quantity demanded of labor) / %d(wage rate))
+  # The higher the price elasticity of demand for the product, the higher the wage elasticity of demand.
+  # The higher the proportion of labor costs relative to total costs of production, the higher will be the wage elasticity of demand.
+  # The greater the number of substitute resources available and the degree to which they are substitutable, the higher will be the wage elasticity of demand.
+* *perfectly competitive resource (labor) market*
+  * wage rate constant
+* *imperfectly competitive resource (labor) market (monopsony)*
+  * compared to perfect market, wage rate and units of labor are both lowered
+* cost minimization: MPP_L / MRC_L = MPP_K / MRC_K (L = labor; K = capital), or MPP_L / P_L = MPP_K / P_K in perfect competition.
+* profit maximization: MRP_L / MRC_L = MRP_K / MRC_K = 1, or MRP_L / P_L = MRP_K / P_K = 1 in perfect competition.
+* If price of product increase, only demand for such labor increase.
+
+= Profit, Price =
+* accounting profit: does not count opportunity cost (implicit cost); economic profit: counts.
+  * i.e. economic profit = accounting profit - opportunity cost
+* All types of market maximize *profits* by producing where MR = MC.
+* All types of market maximize *revenue* by producing at MR = 0.
+
+= Public Goods, Externality =
+* public goods: nonrival in consumption, nonexcludability
+* MSC = MEC + MPC.
+* Positive externalities will improve efficiency when MC < MB.
+* Pos Ext: producer produces more than socially efficient level
+* Graph
+------
+%title Microeconomics Notes - Covi
+Created Date: Apr 03, 2011 9:48:27<br />
+Last Modified: May 10, 2011 18:35:03 

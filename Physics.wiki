@@ -1,0 +1,58 @@
+= Physics =
+todo: modern physics (famous experiments); go through the real multiple tests
+
+*Electrostatics*
+* [[Capacitance]]
+* Two conductors, one charged and the other uncharged, have the same charge after touching if and only if they have the same size.
+
+*Critical angle*: http://en.wikipedia.org/wiki/Total_internal_reflection#Critical_angle 
+
+[[Thermal Expansion]]
+
+*Waves*
+* [[on fundamental frequency]]
+* transverse wave traveling towards a fixed end, a rigid object, will be reflected back on the opposite side of the string from the incident pulse. Speed, amplitude constant.
+* [[doppler effect]]
+* Light: electromagnetic wave, mechanical?
+* longitudinal wave: sound; not easily polarized
+* transverse wave: electromagnetic; can be polarized
+
+*Thermaldynamics*
+* Work done _on_ the gas: W = -P * (delta V)
+
+*Fluids*
+* In *Bernoulli's equation*, `h_1` and `h_2` are relative heights (relative to a zero height point).
+
+*Optics*
+* radius of curvature = 2f
+* magnification: h_i / h_o = d_i / d_o
+
+*Modern Physics*
+* K_{max} = hf - \phi; \phi: work function of the metal surface.
+* eV = K_{max}; V: stopping potential; *2005 Q7*
+  * this is because the definition of 1eV is the work required to move a charge e through a potential difference V.
+* energy of a particular photon: E = hf.
+* momemtum of a photon: p = mv = h / lamda.
+* *rest energy of a particle*: E = mc^2.
+* mass defect: mass of reactants - mass of products
+* In nuclear reactions:
+  - If energy occurs, number of neutrons & protons is not conserved, only charge is conserved;
+  - If energy does not occur, those & charge are conserved.
+* beta particles: atomic number -1, atomic mass number 0.
+* gamma ray: no mass.
+* [[famous experiments]]
+* frequency: UV > visible > IR; therefore in terms of levels of energy states, UV < visible < IR (the higher the energy states, the lower the frequencys)
+
+*Last Minute Review*
+# [[thin film interference]]
+# [[electric potential]]
+# [[double slit]]
+# estimate focal length of a converging lens (2007 Q6): focus the image of the distant tree to a screen, and the focal length is approximately the distance between the lens and the image.
+  - for the typical graph problem, sometimes we need not choose 2 points of the best-fit line. 1 point may be sufficient.
+
+*Corrections*
+* Quantum transitions that result in the characteristic sharp lines of the X-ray spectrum always involve: the inner electron shells.
+----------
+%title Physics - Covi
+Created Date: Mar 20, 2011 18:42:49<br />
+Last Modified: Apr 27, 2011 8:36:51 

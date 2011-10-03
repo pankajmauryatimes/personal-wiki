@@ -1,0 +1,37 @@
+----
+:set tw=99999
+gggqG
+:set nolist wrap lbr display=lastline
+
+the above fixes some poor-formatted txt's.
+----
+search across a file but only on non commented lines? `/^[^#].*\zspattern`.
+-----
+gp gq gu gU
+
+:set for options
+:let for variables
+
+\ze \zs and pattern.txt
+:h \{
+
+
+
+:e ++enc=utf-8
+" to solve bad/wrong characters
+
+[22:51:14] <ConcreteVitamin> Is there a way to quickly switch between tags in a help file? (e.g. using tab to focus next element in a webpage)
+[22:56:38] <scandal> you can sort of fake it by searching for \*.*\*  .  not sure if there is a better way
+[23:00:20] <jerojasro> ConcreteVitamin: http://git.devnull.li/vim-jerojasro.git/?a=blob;f=local-settings/ftplugin/help.vim;hb=HEAD
+[23:02:20] <SuperG1134> Hi
+[23:03:21] <jerojasro> those mappings let you: hit enter over a tag name, jump to it. Use J and K to jump to next/previous tag in a help file
+
+[11:22:45] <Araxia> Axioplase: :help g:vimwiki_valid_html_tags
+[11:23:19] <Axioplase> ha.
+[11:23:23] <Araxia> i think if you add to that, you've got what you want.
+[11:24:24] <Araxia> yup. works.
+
+
+[11:29:02] <ConcreteVitamin> Every time I finish converting, A-Tab to Filezilla and select all the html files, and then Alt-Down to upload
+[11:29:06] <Araxia> i used an svn server. i just set the mime types to text/html and checked them in and boom, instant website.
+

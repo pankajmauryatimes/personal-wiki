@@ -1,0 +1,15 @@
+= Vimwiki Notes =
+
+== Commands ==
+* `\wd`				Delete !WikiWord you're in.
+* `\wr`				Rename !WikiWord you're in.	
+
+== Notes ==
+* To disable the sound when switching out of Vimperator using `<A-Tab>`, see `:h :VisualBell`.
+* To disable a !WikiWord to be a link, add `let g:vimwiki_camel_case=0` in the config.
+* `[http://example.com/ Description]` Add URL with description.
+
+------
+%title Vimwiki Notes - Covi
+Created Date: Feb 07, 2011 21:57:24<br />
+Last Modified: Feb 24, 2011 8:42:38 

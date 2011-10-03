@@ -1,0 +1,53 @@
+= Linux Notes =
+
+== TO-DO SPACE ==
+screen, tmux, conqueterm vim plugin, awesome
+
+== Commands ==
+*ls*<br />
+`ls -a` # `.` before files/directories names means they are hidden files/directories.<br />
+`ls -l` # to show the file types.<br />
+
+`cat` # concatenate files and print on standard output.<br />
+`df` (_disk full_ or _disk free_) # display information about the partitions and their mount points<br />
+`which` # to see where a command locates<br />
+`pwd` # print name of current/working directory<br />
+`tar` # archive. (tar -zcvf archive-name.tar.gz directory-name)<br />
+`mv`, `cp`, `mkdir`, <br />
+[[find]]
+
+== Web Browsing ==
+*firefox (vimperator)*<br />
+Create VIMRC file under HOME and name it `.vimperatorrc`.<br />
+
+== Partition, Structure ==
+*File System Structure*<br />
+`/bin` # 	Common programs, shared by the system, the system administrator and the users.<br />
+`/boot` # 	The startup files and the kernel, vmlinuz. In some recent distributions also grub data. Grub is the GRand Unified Boot loader and is an attempt to get rid of the many different boot-loaders we know today.<br />
+`/dev` # 	Contains references to all the CPU peripheral hardware, which are represented as files with special properties.<br />
+`/etc` # 	Most important system configuration files are in `etc`, this directory contains data similar to those in the Control Panel in Windows<br />
+`/home` # 	Home directories of the common users.<br />
+`/initrd` # 	(on some distributions) Information for booting. Do not remove!<br />
+`/lib` # 	Library files, includes files for all kinds of programs needed by the system and the users.<br />
+`/lost` # +found	Every partition has a lost+found in its upper directory. Files that were saved during failures are here.<br />
+`/misc` # 	For miscellaneous purposes.<br />
+`/mnt` # 	Standard mount point for external file systems, e.g. a CD-ROM or a digital camera.<br />
+`/net` # 	Standard mount point for entire remote file systems<br />
+`/opt` # 	Typically contains extra and third party software.<br />
+`/proc` # 	A virtual file system containing information about system resources. More information about the meaning of the files in proc is obtained by entering the command man proc in a terminal window. The file proc.txt discusses the virtual file system in detail.<br />
+`/root` # 	The administrative user's home directory. Mind the difference between /, the root directory and `root` # , the home directory of the root user.<br />
+`/sbin` # 	Programs for use by the system and the system administrator.<br />
+`/tmp` # 	Temporary space for use by the system, cleaned upon reboot, so don't use this for saving any work!<br />
+`/usr` # 	Programs, libraries, documentation etc. for all user-related programs.<br />
+`/var` # 	Storage for all variable files and temporary files created by users, such as log files, the mail queue, the print spooler area, space for temporary storage of files downloaded from the Internet, or to keep an image of a CD before burning it.<br />
+
+`man hier` read more on the file system hierarchy.<br />
+
+== (General) Notes ==
+`#` Check out `man gnome-` and press `<Tab>`.<br />
+`#` Use S+ page up/down to scroll up and down in terminal.<br />
+
+------
+%title Linux Notes - Covi
+Created Date: Feb 17, 2011 23:00:39<br />
+Last Modified: August 29, 2011 22:27:36 
