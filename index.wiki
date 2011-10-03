@@ -11,7 +11,7 @@ The Wiki records various aspects of my life and presents some of my interests.
 [[My Online Profile]]: This page contains what I share online.
 
 == ME ==
-* [[me][About Me]]
+* [[me][About Me]]. [[About][About this Wiki]].
 * [[Reading][My Reading]]
 * [[Movies][Movies I've watched]]
 * [[music][Music I love]]
@@ -49,4 +49,4 @@ Besides, I use many Web 2.0 applications that make life easier.
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: October 03, 2011 12:51:07 
+Last Modified: October 03, 2011 14:15:41 
