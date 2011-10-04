@@ -4,15 +4,15 @@ Dropbox. Dropbox enables me to crowd-store my files. Leaving important files sol
 
 Git and Github. Generally, after I editted an existed .wiki file or created a new one, I did the following commands to make sure Git tracks my progress and push the files to Github:
 
-# git add . % if I created new files
-# git comm 'MESSAGE' % or sometimes git comm 'MESSAGE' --amend
-# git push
+    git add . % if I created new files
+    git comm 'MESSAGE' % or sometimes git comm 'MESSAGE' --amend
+    git push
 
 And boom. My files are instantaneously tracked and uploaded to Github. To upload them to my website server requires several slightly different commands:
 
-# git add and git comm as above
-# git push myserver master
-# (on my server) git reset --hard
+    git add and git comm as above
+    git push myserver master
+    (on my server) git reset --hard
 
 There are two major drawbacks with this combination of tools: 
 
@@ -21,4 +21,4 @@ There are two major drawbacks with this combination of tools:
 
 -----
 %title About - Covi
-Last Modified: October 04, 2011 13:57:27 
+Last Modified: October 04, 2011 18:29:36 
