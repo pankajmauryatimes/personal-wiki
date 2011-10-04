@@ -1,3 +1,5 @@
+= About =
+
 This entire Wiki is maintained with several fantastic tools. The primary ones are [http://code.google.com/p/vimwiki/ Vimwiki] and [http://www.vim.org/ Vim]. Some supplementary tools those make life eaiser (or those insidiously move me toward the purely technical end...) are [http://www.dropbox.com/ Dropbox], [http://git-scm.com/ Git], and [https://github.com/ Github].
 
 Dropbox. Dropbox enables me to crowd-store my files. Leaving important files solely in your hard drive is a dangerous decision. I lost a laptop along with tons of invaluable files once. Dropbox solves the problem.
