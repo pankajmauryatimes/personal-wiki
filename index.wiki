@@ -1,9 +1,4 @@
 = Welcome to Covi's Personal Knowledge Base Wiki! =
-testing...
-
-t....................est !!!!!!!!!hjdsh
-
-tre
 
 [[http://geotakucovi.com/avatar.jpg|Avatar]]
 
@@ -53,4 +48,4 @@ Besides, I use many Web 2.0 applications that make life easier.
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: October 04, 2011 18:35:52 
+Last Modified: October 05, 2011 10:36:03 
