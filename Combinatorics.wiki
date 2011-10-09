@@ -1,0 +1,13 @@
+Bell Number
+- number of non-empty partitions of n elements
+- http://mathworld.wolfram.com/BellNumber.html
+- strong resemblance to 2nd Kind Stirling Number: B_n = sum{S(n, k)}.
+
+Eulerian Number E(n, k)
+- number of permutations of {1, 2, ..., n} which have k ascents
+- E(n, k) = E(n, n - 1 - k)
+- E(n, k) = (k + 1)E(n - 1, k) + (n - k)E(n - 1, k - 1)
+
+-----
+%title Combinatorics - Covi
+Last Modified: October 09, 2011 10:18:15 
