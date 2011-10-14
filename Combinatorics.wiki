@@ -2,6 +2,7 @@ Bell Number
 - number of non-empty partitions of n elements
 - http://mathworld.wolfram.com/BellNumber.html
 - strong resemblance to 2nd Kind Stirling Number: B_n = sum{S(n, k)}.
+- Calculation: Bell's Triangle
 
 Eulerian Number E(n, k)
 - number of permutations of {1, 2, ..., n} which have k ascents
@@ -10,4 +11,4 @@ Eulerian Number E(n, k)
 
 -----
 %title Combinatorics - Covi
-Last Modified: October 09, 2011 10:18:15 
+Last Modified: October 09, 2011 10:41:35 
