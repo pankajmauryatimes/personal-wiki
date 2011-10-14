@@ -1,0 +1,1 @@
+DFS the graph and put the finished node, one by one, to the head of a linked list.
