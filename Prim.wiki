@@ -1,0 +1,3 @@
+Prim
+- Greedy
+- Starts from a source. Maintain f[i], which records the minimum distance node i is from the subtree of some minimum spanning tree being developed. Each step adds a node x to the subtree where f[x] = min{f[i] | i \in V-G}
