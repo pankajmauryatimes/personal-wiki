@@ -1,7 +1,7 @@
 = Graph Algorithms =
 [[Topological Sort]]
 
-Minimum Spanning Tree: [[Prim]].
+Minimum Spanning Tree: [[Prim]]. [[Kruskal]].
 -----
 %title Graphy Theory and Algorithms - Covi
-Last Modified: October 14, 2011 20:49:37 
+Last Modified: October 14, 2011 22:52:52 

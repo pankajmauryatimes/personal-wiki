@@ -35,3 +35,7 @@ http://www.hackbase.com/tech/2009-07-27/54264.html
 
 Java
 - 既可被解释，也可被编译
+
+cpu 最早谁发明？ 位数含义
+ram 计算机内存
+
