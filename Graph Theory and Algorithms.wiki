@@ -2,6 +2,8 @@
 [[Topological Sort]]
 
 Minimum Spanning Tree: [[Prim]]. [[Kruskal]].
+
+Strongly connected: A directed graph is called strongly connected if there is a path from each vertex in the graph to every other vertex.
 -----
 %title Graphy Theory and Algorithms - Covi
-Last Modified: October 14, 2011 22:52:52 
+Last Modified: October 15, 2011 10:16:01 
