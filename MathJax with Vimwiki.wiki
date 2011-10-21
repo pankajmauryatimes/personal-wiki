@@ -1,0 +1,29 @@
+= Mathjax with Vimwiki =
+- Configure a footer or header template for Vimwiki, and refer to it in .vimrc. Here's a sample of my `footer.tpl`:
+{{{
+</body>
+
+<script src="http://SOMEPLACE//MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ]
+    }
+  });
+</script>
+
+</html>
+}}}
+- Configure the above as you like. Pay attention to the delimiters you'd like to use. Refer to [http://www.mathjax.org/docs/1.1/index.html Mathjax's Documentation]. 
+- Here I use single-dollar for inline display, and double-dollar for displaymath.
+- Edit the file ~/.vim/autoload/vimwiki_html.vim; comment all lines relating to the `s:tag_super` function. Refer to here: http://code.google.com/p/vimwiki/wiki/GuestBook
+- NOTE: I did not use the method [http://code.google.com/p/vimwiki/wiki/MathematicsWithMathJax here]. Use it with care.
+
+Useful links
+- http://www.mathjax.org/docs/1.1/tex.html
+- http://www.mathjax.org/docs/1.1/options/tex2jax.html#configure-tex2jax
+-----
+%title MathJax with Vimwiki - Covi
+Last Modified: October 21, 2011 23:07:24 

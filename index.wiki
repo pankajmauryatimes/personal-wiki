@@ -1,12 +1,5 @@
 = Welcome to Covi's Personal Knowledge Base Wiki! =
 
-dasdasdasdasd
-..$E = mc^2$
-
-{{$
-\sum_{i=1}^N a_i^2 = \infty
-}}$
-
 [[http://geotakucovi.com/avatar.jpg|Avatar]]
 
 My name is *Zongheng Yang*, a high school senior in [http://www.shenzhong.net Shenzhen Middle School], Shenzhen, China ([http://maps.google.com/maps?q=shenzhen,+china&hl=en&client=firefox-a&gl=us&z=10&vpsrc=0 Google Maps]). My usual nickname on the Web is *Covi*. If you need to contact me, my email is near the end of this page.
@@ -42,6 +35,7 @@ The Wiki records various aspects of my life and presents some of my interests.
 * [[Irssi]], a solid [http://en.wikipedia.org/wiki/Internet_Relay_Chat IRC] client.
 * [[Git]]. I'm learning this powerful VCS. 
   - Check out how I use Git to maintain this Wiki here: [[About]].
+* [[MathJax with Vimwiki]]. Check out how I set up !MathJax with Vimwiki here, so I can display cool math such as $a^2 = b^2 + c^2$.
 
 == Devices ==
 * [[Kindle]]. I am an ardent Kindle advocate.
@@ -55,4 +49,4 @@ Besides, I use many Web 2.0 applications that make life easier.
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: October 14, 2011 20:52:27 
+Last Modified: October 21, 2011 22:58:43 

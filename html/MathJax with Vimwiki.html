@@ -1,0 +1,72 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+<title>MathJax with Vimwiki - Covi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1 id="toc_1">Mathjax with Vimwiki</h1>
+<ul>
+<li>
+Configure a footer or header template for Vimwiki, and refer to it in .vimrc. Here's a sample of my <code>footer.tpl</code>:
+<pre>
+&lt;/body&gt;
+
+&lt;script src="http://SOMEPLACE//MathJax.js?config=TeX-AMS-MML_HTMLorMML"&gt;
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ]
+    }
+  });
+&lt;/script&gt;
+
+&lt;/html&gt;
+</pre>
+</li>
+<li>
+Configure the above as you like. Pay attention to the delimiters you'd like to use. Refer to <a href="http://www.mathjax.org/docs/1.1/index.html">Mathjax's Documentation</a>. 
+</li>
+<li>
+Here I use single-dollar for inline display, and double-dollar for displaymath.
+</li>
+<li>
+Edit the file ~/.vim/autoload/vimwiki_html.vim; comment all lines relating to the <code>s:tag_super</code> function. Refer to here: <a href="http://code.google.com/p/vimwiki/wiki/GuestBook">http://code.google.com/p/vimwiki/wiki/GuestBook</a>
+</li>
+<li>
+NOTE: I did not use the method <a href="http://code.google.com/p/vimwiki/wiki/MathematicsWithMathJax">here</a>. Use it with care.
+</li>
+</ul>
+
+<p>
+Useful links
+</p>
+<ul>
+<li>
+<a href="http://www.mathjax.org/docs/1.1/tex.html">http://www.mathjax.org/docs/1.1/tex.html</a>
+</li>
+<li>
+<a href="http://www.mathjax.org/docs/1.1/options/tex2jax.html#configure-tex2jax">http://www.mathjax.org/docs/1.1/options/tex2jax.html#configure-tex2jax</a>
+</li>
+</ul>
+<hr />
+<p>
+Last Modified: October 21, 2011 23:07:24 
+</p>
+
+</body>
+
+<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ]
+    }
+  });
+</script>
+
+</html>

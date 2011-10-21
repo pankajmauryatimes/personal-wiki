@@ -8,17 +8,6 @@
 <h1 id="toc_1">Welcome to Covi's Personal Knowledge Base Wiki!</h1>
 
 <p>
-dasdasdasdasd
-..$E = mc^2$
-</p>
-
-<p>
-{{$
-\sum_{i=1}^N a_i^2 = \infty
-}}$
-</p>
-
-<p>
 <img src="http://geotakucovi.com/avatar.jpg" alt="Avatar" />
 </p>
 
@@ -116,6 +105,9 @@ Computer Science: <a href="Sol To DP Book.html">Solutions to Problems in The Art
 Check out how I use Git to maintain this Wiki here: <a href="About.html">About</a>.
 </li>
 </ul>
+<li>
+<a href="MathJax with Vimwiki.html">MathJax with Vimwiki</a>. Check out how I set up MathJax with Vimwiki here, so I can display cool math such as $a^2 = b^2 + c^2$.
+</li>
 </ul>
 
 <h2 id="toc_1.4">Devices</h2>
@@ -137,11 +129,20 @@ Besides, I use many Web 2.0 applications that make life easier.
 <hr />
 <p>
 Created Date: Jan 31, 2011.<br />
-Last Modified: October 14, 2011 20:52:27 
+Last Modified: October 21, 2011 22:58:43 
 </p>
 
 </body>
 
-<script type="text/javascript" src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ]
+    }
+  });
+</script>
 
 </html>
