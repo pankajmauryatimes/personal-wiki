@@ -23,10 +23,14 @@ In addition to 1.1, denote r(x, y) as the "bonus value" at (x, y); all r(x, y) =
 
 S(x, y) = min{a_d(x - 1, y + 1) + S(x - 1, y + 1), a_u(x - 1, y - 1) + S(x - 1, y - 1)} + r(x, y).
 
+1.3
+Notice the definition of N: Fig 1.3 is actually a N=4 case.
+
+DP requires $2N + (\frac{N(N + 1)}{2} - 2N)*2 = n^2 - n$ additions, and $(\frac{N(N + 1)}{2} - 2N) + N$ comparisons; Brute-force computes $2^N$ paths and thus requires $N \cdot 2^N$ additions and $2^N - 1$ comparisons.
 </pre>
 <hr />
 <p>
-Last Modified: September 19, 2011 00:05:09 
+Last Modified: October 21, 2011 21:22:34 
 </p>
 
 </body>
