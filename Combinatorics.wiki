@@ -1,3 +1,6 @@
+= Combinatorics =
+
+== Special Numbers ==
 Bell Number
 - number of non-empty partitions of n elements
 - http://mathworld.wolfram.com/BellNumber.html
@@ -9,6 +12,9 @@ Eulerian Number E(n, k)
 - E(n, k) = E(n, n - 1 - k)
 - E(n, k) = (k + 1)E(n - 1, k) + (n - k)E(n - 1, k - 1)
 
+== Problems ==
+* [[mathematician-language problem]].
+
 -----
 %title Combinatorics - Covi
-Last Modified: October 09, 2011 10:41:35 
+Last Modified: October 22, 2011 21:49:09 

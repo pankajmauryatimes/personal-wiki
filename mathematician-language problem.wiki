@@ -1,0 +1,16 @@
+= Problem =
+
+Nine mathematicians met together, and found that for every three of them, at least two could talk in one language they knew. Given that each mathematician could speak at most 3 languages, prove: at least three could talk in one language they knew.
+
+= A Simple Generalization =
+
+N mathematicians met together, and found that for every three of them, at least two could talk in one language they knew. Given that each mathematician could speak at most C languages, prove: at least three could talk in one language they knew.
+
+= The sufficient and necessary condition =
+\begin{align}
+N - 1 & \geq 2C \quad and \\
+\lceil \frac{N - 2}{2} \rceil & > C.
+\end{align}
+-----
+%title mathematician-language problem - Covi
+Last Modified: October 22, 2011 21:59:32 

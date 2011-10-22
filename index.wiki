@@ -18,6 +18,7 @@ The Wiki records various aspects of my life and presents some of my interests.
 == Serious (or not so serious?) Stuff ==
 * [[Math]], notes on math.
   * [[calculus][Calculus]], notes on calculus.
+  * [[Combinatorics]], notes/problems/solutions/questions on combinatorics.
 * [[LaTeX]], notes on !LaTeX.
 * [[Linux Notes][Notes on Linux]].
 * [[Physics]].
@@ -25,7 +26,7 @@ The Wiki records various aspects of my life and presents some of my interests.
 * [[Microeconomics]].
 * [[Macroeconomics]].
 * [[AP Computer Science]]; In Fall 2011 I will be a TA for the AP Computer Science Class. Here contains notes and resources for my fellow classmates.
-* Computer Science: [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]]. [[NOIP Notes][Some basic notes]]. [[Combinatorics]]. [[Graph Theory and Algorithms]].
+* Computer Science: [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]]. [[NOIP Notes][Some basic notes]]. [[Graph Theory and Algorithms]].
 
 == Tools ==
 * [[Vim]]
@@ -47,4 +48,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: October 22, 2011 10:13:55 
+Last Modified: October 22, 2011 21:54:59 
