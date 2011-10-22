@@ -1,6 +1,6 @@
 = About =
 
-This entire Wiki is maintained with several fantastic tools. The primary ones are [http://code.google.com/p/vimwiki/ Vimwiki] and [http://www.vim.org/ Vim]. Some supplementary tools those make life eaiser (or those insidiously move me toward the purely technical end...) are [http://www.dropbox.com/ Dropbox], [http://git-scm.com/ Git], and [https://github.com/ Github].
+This entire Wiki is maintained with several fantastic tools. The primary ones are [http://code.google.com/p/vimwiki/ Vimwiki] and [http://www.vim.org/ Vim]. Some supplementary tools those make life eaiser (or those insidiously move me toward the purely technical end...) are [http://www.dropbox.com/ Dropbox], [http://git-scm.com/ Git], and `cron`.
 
 *Dropbox*. Dropbox enables me to crowd-store my files. Leaving important files solely in your hard drive is a dangerous decision. I lost a laptop along with tons of invaluable files once. Dropbox solves the problem.
 
@@ -19,8 +19,11 @@ And boom. My files are instantaneously tracked and uploaded to Github. To upload
 There are two major drawbacks with this combination of tools: 
 
 # Github does not correctly regonize Vimwiki format/markup. The effect is if I read my .wiki files on Github, they can look rather messy.
-# ~~The manipulation seems tedious. As my knowledge of Git and Linux accumulate, I expect a more elegant solution in the future.~~ *Solution*: run `ssh user@domain.com ./git` directly in my Git Bash, and the nice little shell script `git` I wrote does the `cd` and `reset --hard` stuff.
+# ~~The manipulation seems tedious. As my knowledge of Git and Linux accumulate, I expect a more elegant solution in the future.~~ ~~*Solution*: run `ssh user@domain.com ./git` directly in my Git Bash, and the nice little shell script `git` I wrote does the `cd` and `reset --hard` stuff.~~
+
+Oct 22, 2011 *Update*
+There's a better solution than the above: ask *cron* to run `./git` command every 10 minutes. Life saved.
 
 -----
 %title About - Covi
-Last Modified: October 05, 2011 10:38:25 
+Last Modified: October 22, 2011 10:11:15 

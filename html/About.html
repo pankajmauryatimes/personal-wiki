@@ -8,7 +8,7 @@
 <h1 id="toc_1">About</h1>
 
 <p>
-This entire Wiki is maintained with several fantastic tools. The primary ones are <a href="http://code.google.com/p/vimwiki/">Vimwiki</a> and <a href="http://www.vim.org/">Vim</a>. Some supplementary tools those make life eaiser (or those insidiously move me toward the purely technical end...) are <a href="http://www.dropbox.com/">Dropbox</a>, <a href="http://git-scm.com/">Git</a>, and <a href="https://github.com/">Github</a>.
+This entire Wiki is maintained with several fantastic tools. The primary ones are <a href="http://code.google.com/p/vimwiki/">Vimwiki</a> and <a href="http://www.vim.org/">Vim</a>. Some supplementary tools those make life eaiser (or those insidiously move me toward the purely technical end...) are <a href="http://www.dropbox.com/">Dropbox</a>, <a href="http://git-scm.com/">Git</a>, and <code>cron</code>.
 </p>
 
 <p>
@@ -42,14 +42,32 @@ There are two major drawbacks with this combination of tools:
 Github does not correctly regonize Vimwiki format/markup. The effect is if I read my .wiki files on Github, they can look rather messy.
 </li>
 <li>
-<del>The manipulation seems tedious. As my knowledge of Git and Linux accumulate, I expect a more elegant solution in the future.</del> <strong>Solution</strong>: run <code>ssh user@domain.com ./git</code> directly in my Git Bash, and the nice little shell script <code>git</code> I wrote does the <code>cd</code> and <code>reset --hard</code> stuff.
+<del>The manipulation seems tedious. As my knowledge of Git and Linux accumulate, I expect a more elegant solution in the future.</del> ~~<strong>Solution</strong>: run <code>ssh user@domain.com ./git</code> directly in my Git Bash, and the nice little shell script <code>git</code> I wrote does the <code>cd</code> and <code>reset --hard</code> stuff.~~
 </li>
 </ol>
 
+<p>
+Oct 22, 2011 <strong>Update</strong>
+There's a better solution than the above: ask <strong>cron</strong> to run <code>./git</code> command every 10 minutes. Life saved.
+</p>
+
 <hr />
 <p>
-Last Modified: October 05, 2011 10:38:25 
+Last Modified: October 22, 2011 10:11:15 
 </p>
 
 </body>
+
+<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ],
+        processEscapes: true
+    }
+  });
+</script>
+
 </html>
