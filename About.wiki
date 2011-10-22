@@ -19,11 +19,11 @@ And boom. My files are instantaneously tracked and uploaded to Github. To upload
 There are two major drawbacks with this combination of tools: 
 
 # Github does not correctly regonize Vimwiki format/markup. The effect is if I read my .wiki files on Github, they can look rather messy.
-# ~~The manipulation seems tedious. As my knowledge of Git and Linux accumulate, I expect a more elegant solution in the future.~~ ~~Solution: run `ssh user@domain.com ./git` directly in my Git Bash, and the nice little shell script `git` I wrote does the `cd` and `reset --hard` stuff.~~
+# ~~The manipulation seems tedious. As my knowledge of Git and Linux accumulate, I expect a more elegant solution in the future.~~ 
+  - (*OBSOLETE*) Solution: run `ssh user@domain.com ./git` directly in my Git Bash, and the nice little shell script `git` I wrote does the `cd` and `reset --hard` stuff.~~
 
-Oct 22, 2011 *Update*
-There's a better solution than the above: ask *cron* to run `./git` command every 10 minutes. Life saved.
+Oct 22, 2011 *Update*: There's a better solution than the above: ask *cron* to run `./git` command every 10 minutes. Life saved.
 
 -----
 %title About - Covi
-Last Modified: October 22, 2011 10:17:44 
+Last Modified: October 22, 2011 10:22:15 
