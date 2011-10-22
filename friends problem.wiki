@@ -1,0 +1,11 @@
+= Problem =
+
+There are n > 3 people. Some of them are friends of each other; some of them are strangers. There's at least 1 person who does not know all of the others. What's the maxmimum number of people who know all of the others?
+
+= Solution =
+
+Sketch and bam...
+
+-----
+%title friends problem - Covi
+Last Modified: October 22, 2011 22:17:49 

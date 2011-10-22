@@ -1,5 +1,10 @@
 = Math =
 
+== Problems Collection ==
+* [[mathematician-language problem]] (graph theory)
+* [[friends problem]] (graph theory)
+
+
 *Read List*
 * http://math.stackexchange.com/questions/11002/cn-p-even-or-odd
 
@@ -24,4 +29,4 @@
 -------
 %title Math - Covi
 Date Created: Feb 19, 2011 9:03:42<br />
-Last Modified: October 22, 2011 21:55:47 
+Last Modified: October 22, 2011 22:15:45 
