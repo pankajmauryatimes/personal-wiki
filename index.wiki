@@ -34,7 +34,7 @@ The Wiki records various aspects of my life and presents some of my interests.
 * [[Filezilla]]
 * [[Irssi]], a solid [http://en.wikipedia.org/wiki/Internet_Relay_Chat IRC] client.
 * [[Git]]. I'm learning this powerful VCS. 
-  - Check out how I use Git to maintain this Wiki here: [[About]].
+  - Check out how I use Git, Vimwiki, cron, and several other fantastic tools to maintain this Wiki here: [[About][About the Maintenance of this Personal Knowledge Base]].
 * [[MathJax with Vimwiki]]. Check out how I set up !MathJax with Vimwiki here, so I can display cool math such as $a^2 = b^2 + c^2$.
 
 == Devices ==
