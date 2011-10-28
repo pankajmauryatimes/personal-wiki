@@ -7,6 +7,10 @@ Strongly connected: A directed graph is called strongly connected if there is a 
 
 = Graph Theory Problems =
 [[mathematician-language problem]]  [[friends problem]]
+
+一次会议有 n 名教授 $A_1, ..., A_n$ 参加，证明可以将这 n 个人分为两组，使得每一个人 $A_i$ 在另一组中认识的人数 $d_i$ 不少于他在同一组中认识的人数 $d_{i}^'.
+
+
 -----
 %title Graphy Theory and Algorithms - Covi
 Last Modified: October 22, 2011 22:18:35 
