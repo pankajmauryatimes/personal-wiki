@@ -26,7 +26,7 @@ The Wiki records various aspects of my life and presents some of my interests.
 * [[Microeconomics]].
 * [[Macroeconomics]].
 * [[AP Computer Science]]; In Fall 2011 I will be a TA for the AP Computer Science Class. Here contains notes and resources for my fellow classmates.
-* Computer Science: [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]]. [[NOIP Notes][Some basic notes]]. [[Graph Theory and Algorithms]].
+* Computer Science: [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]]. [[NOIP Notes][Some basic notes]]. [[Graph Theory and Algorithms]]. [[NOIP 2011 Prep][My Preparation for NOIP 2011]].
 
 == Tools ==
 * [[Vim]]
