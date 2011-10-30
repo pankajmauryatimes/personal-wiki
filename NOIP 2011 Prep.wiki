@@ -4,6 +4,9 @@ All codes will be pushed to here: https://github.com/concretevitamin/2011codes.
 Oct 28<br />
 SGU 175: simple math/simulation/backtracking/string.
 
+Oct 30<br />
+SGU 181: Wrong answer on test 39... $x_0 = A, x_i = (a * x_{i}^{2} + b * x_i + c) % M.$ Find $x_k$.
+
 -----
 %title My Preparation for NOIP 2011 - Covi
-Last Modified: October 28, 2011 16:18:40 
+Last Modified: October 30, 2011 23:02:32 
