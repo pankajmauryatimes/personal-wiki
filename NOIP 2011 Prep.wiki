@@ -1,5 +1,8 @@
 = My Preparation for NOIP 2011 =
 All codes will be pushed to here: https://github.com/concretevitamin/2011codes.
+Check out my notes on my OI (Olympiad in Informatics) Blog: http://geotakucovi.com/oi/.
+
+*REMEMBER TO USE -g WHEN COMPILING SO AS TO ENABLE DEBUGGING WITH GDB!*
 
 Oct 28<br />
 SGU 175: simple math/simulation/backtracking/string.
@@ -7,6 +10,9 @@ SGU 175: simple math/simulation/backtracking/string.
 Oct 30<br />
 SGU 181: Wrong answer on test 39... $x_0 = A, x_i = (a * x_{i}^{2} + b * x_i + c) % M.$ Find $x_k$.
 
+DP<br />
+USACO 3.1.6 stamps (complete backpack variant); 3.1.2 inflate (complete backpack);
+
 -----
 %title My Preparation for NOIP 2011 - Covi
-Last Modified: October 30, 2011 23:02:32 
+Last Modified: November 03, 2011 13:12:13 
