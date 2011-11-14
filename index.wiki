@@ -2,7 +2,9 @@
 
 [[http://geotakucovi.com/avatar.jpg|Avatar]]
 
-Lately (From Oct 31) I've been spending 5hrs+ in Library programming (_or hoping to program_) every day, and 3hrs in classroom every night. (_OMG I HAVE COLLEGE APPLICATIONS..._)
+``The greater danger for most of us lies not in setting our aim too high
+and falling short; but in setting our aim too low, and achieving our
+mark.''
 
 My name is *Zongheng Yang*, a high school senior in [http://www.shenzhong.net Shenzhen Middle School], Shenzhen, China ([http://maps.google.com/maps?q=shenzhen,+china&hl=en&client=firefox-a&gl=us&z=10&vpsrc=0 Google Maps]). My usual nickname on the Web is *Covi*. If you need to contact me, my email is near the end of this page.
 
@@ -50,4 +52,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: November 03, 2011 13:11:22 
+Last Modified: November 14, 2011 08:50:15 

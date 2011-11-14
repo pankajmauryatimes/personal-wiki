@@ -1,9 +1,14 @@
 = Music I love =
-_This page will be continually updated as I listen to some of the best impulses of this world..._
+_I listen to some of the best impulses of this world..._
 
-Genres: Jazz and Chinese Pop.
 
-Artists: Miles Davis, John Coltrane, 陈奕迅 (Eason Chan)
+
+*Genres*: Jazz and Chinese Pop.
+
+*Artists*: Miles Davis, John Coltrane, 陈奕迅 (Eason Chan), Cannonball Adderley, Leehom Wong (王力宏)
+
+== Jazz ==
+* _Autumn Leaves_ in Cannonball Adderley's _Somethin' Else_ is the *most impressive* jazz piece I've ever heard! 
 
 == Pop Songs (Which I usually sing at KTV) == 
 # 落花流水, 陈奕迅.  
@@ -15,8 +20,9 @@ Artists: Miles Davis, John Coltrane, 陈奕迅 (Eason Chan)
 # 你那么爱他, 李圣杰. _(though I don't understand the lyrics)_
 # 新不了情.
 # 如果我变成回忆, TANK.
+# 爱是, 若兰.
 
 -------
 %title Music I love - Covi
 Created Date: Feb 12, 2011 10:11:39<br />
-Last Modified: October 14, 2011 19:44:54 
+Last Modified: November 13, 2011 22:37:24 
