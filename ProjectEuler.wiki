@@ -1,0 +1,8 @@
+[http://projecteuler.net/problems Project Euler] is a good way to get you acquianted with a new programming language.
+
+I push my codes for the problems to [https://github.com/concretevitamin/ProjectEuler Github] as I learn Python and some other fancy languages! :)
+
+-----
+%title Project Euler - Covi
+Created Date: November 23, 2011 08:15:54<br />
+Last Modified: November 23, 2011 08:16:02 
