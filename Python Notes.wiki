@@ -1,0 +1,9 @@
+= Python Notes =
+Check out my exercise codes for [http://code.google.com/edu/languages/google-python-class/index.html Google's Python Class] on [https://github.com/concretevitamin/google-python-exercises-codes Github].
+
+Also, I use [http://projecteuler.net/problems Project Euler] for practicing the language. My codes on [https://github.com/concretevitamin/ProjectEuler Github].
+
+-----
+%title Python Notes - Covi
+Created Date: November 25, 2011 18:34:49<br />
+Last Modified: November 25, 2011 18:37:34 
