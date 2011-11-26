@@ -30,6 +30,7 @@ The Wiki records various aspects of my life and presents some of my interests.
   * [[Graph Theory and Algorithms]].
   * [[AP Computer Science]]; In Fall 2011 I will be a TA for the AP Computer Science Class. Here contains notes and resources for my fellow classmates.
   * [[Python Notes]]. I find learning Python a great break from college applications.
+  * [[wordcount][wordcount.py, with interesting results!]] wordcount.py is a small python program I wrote for fun. Check out the results!
 * [[LaTeX]], notes on !LaTeX.
 * [[Linux Notes][Notes on Linux]].
 * [[Physics]].
@@ -57,4 +58,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: November 25, 2011 18:34:32 
+Last Modified: November 26, 2011 10:27:22 

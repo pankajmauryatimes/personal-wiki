@@ -1,0 +1,69 @@
+= wordcount.py and Some Interesting Results =
+`wordcount.py` is a tiny Python I wrote for fun, that counted the most frequent words in an article and their occurances. It supports arbitrary number of most frequent words.
+
+The code, along with some sample results, can be found here: [https://github.com/concretevitamin/wordcount Github].
+
+== Some Interesting Results ==
+
+I selected two quite personal pieces to examine their 15 most frequent words:
+* _Such, Such were the Joys_, by George Orwell
+* _Once More to the Lake_, by E. B. White
+
+The results are shockingly similar, since they are both so personal.
+
+Joy:
+{{{
+i 474          my 130         you 129
+me 90          one 89         — 77
+he 76          his 63         did 61
+could 59       even 56        we 55
+who 50         any 47         your 47
+}}}
+
+Lake:
+{{{
+i 35           we 20          you 16
+my 15          lake 14        up 14
+been 13        one 12         out 11
+they 10        his 10         over 9
+their 9        same 9         he 9
+}}} 
+<br />
+
+Now, _The Ring of Time_, anoter piece by E. B. White, which is not as personal as Lake:
+{{{
+her 30         she 29         i 18
+one 11         horse 10       ring 7
+we 7           time 7         out 6
+his 6          around 6       circus 6
+woman 5        two 5          girl 5
+}}}
+The most frequent words here change to "her" and "she", which refers to the girl. Also notice the most important objects being portrayed in the article: *circus, horse, time, ring, woman, girl.*
+<br /><br />
+
+Let's check out the famous _I Have a Dream_:
+{{{
+we 29          freedom 19     our 17
+i 15           let 13         negro 13
+one 12         every 10       day 10
+come 10        go 9           dream 9
+ring 9         their 8        able 8
+}}}
+Some difference, but not huge. Now the 25 most frequent words:
+{{{
+we 29          freedom 19     our 17
+i 15           let 13         negro 13
+one 12         every 10       day 10
+come 10        go 9           dream 9
+ring 9         their 8        able 8
+back 8         you 8          nation 7
+satisfied 6    white 6        cannot 6
+long 6         new 5          great 5
+my 5           
+}}}
+Huge difference from all other three articles!
+
+------
+%title wordcount.py and Some Interesting Results - Covi
+Created Date: November 26, 2011 10:34:46<br />
+Last Modified: November 26, 2011 10:53:31 
