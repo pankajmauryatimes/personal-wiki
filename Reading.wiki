@@ -4,23 +4,23 @@ This Sub-wiki contains my thoughts and notes when reading. It also records a lis
 
 These books and short passages are mostly read on [[Kindle][My Kindle]]. Check to see how I [[A tricky yank task study][deal with notes and highlights on Kindle]]. Some of them are assignments from my English II (Honor English) class.
 
-Reading: [[Walden]] by Henry Thoreau, The Rational Optimist by Matt Ridley.
-
 == American Literature == 
-* [[Ethan Frome]], by [[Edith Wharton]]; finished in Dec 2010.
-* [[The Adventures of Huckleberry Finn]], by [[Mark Twain]]; finished on Jan 31, 2011.
+* Ethan Frome, by Edith Wharton; finished in Dec 2010.
+* [[The Adventures of Huckleberry Finn]], by Mark Twain; finished on Jan 31, 2011.
 * Great Gatsby, by F. Scott Fitzgerald.
 
-== English Literature ==
-* [[Frankenstein]], by [[Mary Shelley]]; finished on Feb 4, 2011.
-
-== Pieces, short fiction ==
+== Pieces, Essays, Short Stories ==
 * [[An Occurrence at Owl Creek Bridge]], Ambrose Bierce.
 * [[A Mystery of Heroism]], Stephen Crane.
+* _Such, Such were the Joys_, George Orwell. (See also [[wordcount][here]].)
+* _Why I Write_, George Orwell.
+
+== English Literature ==
+* [[Frankenstein]], by Mary Shelley; finished on Feb 4, 2011.
 
 == Fantansy ==
 * [[A Clash of Kings]] (2nd of the series [[A Song of Ice and Fire]]) by George R. R. Martin; finished on Mid Autumn Festival, Sep 12, 2011.
 
 -------
 %title My Reading - Covi 
-Last Modified: September 12, 2011 18:47:06 
+Last Modified: December 01, 2011 23:09:00 
