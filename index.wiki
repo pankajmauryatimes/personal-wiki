@@ -28,7 +28,7 @@ The Wiki records various aspects of my life and presents some of my interests.
   * [[calculus][Calculus]], notes on calculus.
   * [[Combinatorics]], notes/problems/solutions/questions on combinatorics.
   * [[Modeling]].
-* Computer Science
+* Computer Science (Github (codes, projects, work): https://github.com/concretevitamin/)
   * [[ProjectEuler][My Project Euler Codes]].
   * [[NOIP 2011 Prep][My Preparation for NOIP 2011]].
   * [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]]. 
@@ -64,4 +64,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: December 22, 2011 10:47:20 
+Last Modified: December 28, 2011 21:58:19 
