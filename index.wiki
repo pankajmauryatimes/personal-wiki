@@ -4,6 +4,8 @@
 
 ``The greater danger for most of us lies not in setting our aim too high and falling short; but in setting our aim too low, and achieving our mark.'' -- Michelangelo Buonarroti
 
+``To strive, to seek, to find, and not to yield.'' -- _Ulysses_
+
 {{{----------------------------}}}
 
 *To all frustrated, sleep-deprived, stressed out high school seniors deperately preparing your applications: LISTEN TO CANNONBALL ADDERLEY's MERCY, MERCY, MERCY!*
@@ -14,7 +16,7 @@ Hi! My name is *Zongheng Yang*, a high school senior in [http://www.shenzhong.ne
 
 This personal Wiki is constructed and maintained with [http://www.vim.org/ Vim] + [http://code.google.com/p/vimwiki/ Vimwiki] + [http://git-scm.com Git] and several other tools, which enable me to add something to my personal knowledge base within no more than 10 manipulative keystrokes, and yes, no mouse needed! Check out more here: [[About]].
 
-The Wiki records various aspects of my life and presents some of my interests.
+The Wiki records some academic notes and some of my interests.
 
 == ME ==
 * [[me][About Me]]
@@ -64,4 +66,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: December 28, 2011 21:58:19 
+Last Modified: December 29, 2011 23:20:13 
