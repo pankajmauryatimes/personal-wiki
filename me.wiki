@@ -1,7 +1,5 @@
 = About Me =
 
-{{{<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?near=Tsim+Sha+Tsui+Station+%4022.297604,114.172175&amp;geocode=&amp;q=%E7%BF%A0%E5%8D%8E&amp;f=l&amp;sll=22.308235,114.171553&amp;sspn=0.0428,0.064287&amp;vpsrc=6&amp;ie=UTF8&amp;hq=%E7%BF%A0%E5%8D%8E&amp;hnear=&amp;t=m&amp;fll=22.305386,114.17093&amp;fspn=0.00539,0.010568&amp;st=104879098141054043213&amp;rq=1&amp;ev=zi&amp;split=1&amp;ll=22.305753,114.171413&amp;spn=0.002978,0.003219&amp;z=17&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?near=Tsim+Sha+Tsui+Station+%4022.297604,114.172175&amp;geocode=&amp;q=%E7%BF%A0%E5%8D%8E&amp;f=l&amp;sll=22.308235,114.171553&amp;sspn=0.0428,0.064287&amp;vpsrc=6&amp;ie=UTF8&amp;hq=%E7%BF%A0%E5%8D%8E&amp;hnear=&amp;t=m&amp;fll=22.305386,114.17093&amp;fspn=0.00539,0.010568&amp;st=104879098141054043213&amp;rq=1&amp;ev=zi&amp;split=1&amp;ll=22.305753,114.171413&amp;spn=0.002978,0.003219&amp;z=17&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>}}}
-
 == Academic Interests ==
 * Math
 * Computer Science
