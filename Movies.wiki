@@ -1,7 +1,5 @@
 = Movies I've Watched =
 
-To watch: _Moneyball_
-
 == Feb, 2011 ==
 * _The King's Speech_, 2010.
 * _Black Swan_, 2010.
@@ -54,7 +52,11 @@ To watch: _Moneyball_
 == Dec, 2011 ==
 * _The Debt_, 2010.
 * _The Machinist_, 2004.
+
+== Jan, 2012 ==
+* _Mission Impossible: Ghost Protocol_, 2011.
+* _Moneyball_, 2011.
 ------
 %title Movies I've Watched
 Created Date: Feb 09, 2011 0:13:47<br />
-Last Modified: December 25, 2011 21:00:04 
+Last Modified: January 04, 2012 00:06:18 
