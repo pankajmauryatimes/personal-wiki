@@ -21,7 +21,7 @@ The Wiki records some academic notes and some of my interests.
 == ME ==
 * [[me][About Me]]
 * [[Reading][My Reading]]
-* [[Movies][Movies I've watched]]
+* [[Movies][Movies I've watched]]. I'm a movie addict.
 * [[music][Music I love]]. Jazz. Cantonese Pop. Albums and Pieces.
 <!-- [[Pastebin][My Pastebin for Random Stuff]] (Only for personal use; not much value here.) -->
   
@@ -66,4 +66,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: December 29, 2011 23:20:13 
+Last Modified: January 07, 2012 22:24:13 
