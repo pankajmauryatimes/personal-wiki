@@ -5,10 +5,6 @@ Check out my .vimrc [[vimrc][here]].
 
 * [[A tricky yank task study][Dealing with Kindle's My_Clipping.txt: A tricky yank task study]].
 
-*TO-DO STUFF*<br />
-# i'
-# a command that automatically save and/or quit all sessions
-
 == Basic Editting Stuff ==
 * If some lines are highlighted in visual mode (checkout `visual-mode`), press `J` to join them altogether.
 
@@ -21,6 +17,7 @@ Change <nowiki>A B</nowiki> to <nowiki>`A` # B</nowiki>.<br />
 
 == Commands ==
 * Use `@:` to repeat last colon command.
+* To resolve dos/unix format issues, use `:set ff=dos` and `:set ff=unix` (http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem).
 
 == Datestamp ==
 Add<br />
@@ -28,7 +25,7 @@ Add<br />
 to your `VIMRC`. Place cursor on the head of "Last Modified" line and <F5>. See [[http://vim.wikia.com/wiki/Insert_current_date_or_time|also]]. 
 
 == Linux-related ==
-Use `vim-gtk` or `vim-gnome` under linux.<br />
+Use `vim-gtk` or `vim-gnome` under linux (for instance, under `vim-basic` `"+y`, or the system clipboard, will not work).<br />
 
 -------
 == Useful Links & Resouces ==
@@ -41,3 +38,5 @@ Use `vim-gtk` or `vim-gnome` under linux.<br />
 -------
 %title Vim Notes & Tricks - Covi
 Last Modified: Apr 01, 2011 11:05:40 
+%b %d, %Y %T 
+<U0025><U0062><U0020><U0025><U0064><U002C><U0020><U0025><U0059><U0020><U0025><U0054>
