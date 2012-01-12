@@ -41,7 +41,7 @@ Create VIMRC file under HOME and name it `.vimperatorrc`.<br />
 `/usr` # 	Programs, libraries, documentation etc. for all user-related programs.<br />
 `/var` # 	Storage for all variable files and temporary files created by users, such as log files, the mail queue, the print spooler area, space for temporary storage of files downloaded from the Internet, or to keep an image of a CD before burning it.<br />
 
-`man hier` read more on the file system hierarchy.<br />
+`man hier` read more on the file system hierarchy. Or [here http://en.wikipedia.org/wiki/Unix_directory_structure]<br />
 
 == (General) Notes ==
 `#` Check out `man gnome-` and press `<Tab>`.<br />
@@ -50,4 +50,4 @@ Create VIMRC file under HOME and name it `.vimperatorrc`.<br />
 ------
 %title Linux Notes - Covi
 Created Date: Feb 17, 2011 23:00:39<br />
-Last Modified: August 29, 2011 22:27:36 
+Last Modified: January 12, 2012 19:15:25 
