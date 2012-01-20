@@ -20,18 +20,6 @@ Check out my .vimrc <a href="vimrc.html">here</a>.
 </li>
 </ul>
 
-<p>
-<strong>TO-DO STUFF</strong><br />
-</p>
-<ol>
-<li>
-i'
-</li>
-<li>
-a command that automatically save and/or quit all sessions
-</li>
-</ol>
-
 <h2 id="toc_1.1">Basic Editting Stuff</h2>
 <ul>
 <li>
@@ -57,6 +45,12 @@ Change &lt;nowiki&gt;A B&lt;/nowiki&gt; to &lt;nowiki&gt;<code>A</code> # B&lt;/
 <li>
 Use <code>@:</code> to repeat last colon command.
 </li>
+<li>
+To resolve dos/unix format issues, use <code>:set ff=dos</code> and <code>:set ff=unix</code> (<a href="http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem">http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem</a>).
+</li>
+<li>
+File encoding issues: <code>:e! ++enc=utf-8</code>
+</li>
 </ul>
 
 <h2 id="toc_1.5">Datestamp</h2>
@@ -72,7 +66,7 @@ to your <code>VIMRC</code>. Place cursor on the head of "Last Modified" line and
 
 <h2 id="toc_1.6">Linux-related</h2>
 <p>
-Use <code>vim-gtk</code> or <code>vim-gnome</code> under linux.<br />
+Use <code>vim-gtk</code> or <code>vim-gnome</code> under linux (for instance, under <code>vim-basic</code> <code>"+y</code>, or the system clipboard, will not work).<br />
 </p>
 
 <hr />
@@ -100,7 +94,22 @@ Some tutorial videos here (<a href="http://ontwik.com/tools/vim-from-novice-to-p
 <hr />
 <p>
 Last Modified: Apr 01, 2011 11:05:40 
+%b %d, %Y %T 
+&lt;U0025&gt;&lt;U0062&gt;&lt;U0020&gt;&lt;U0025&gt;&lt;U0064&gt;&lt;U002C&gt;&lt;U0020&gt;&lt;U0025&gt;&lt;U0059&gt;&lt;U0020&gt;&lt;U0025&gt;&lt;U0054&gt;
 </p>
 
 </body>
+
+<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ],
+        processEscapes: true
+    }
+  });
+</script>
+
 </html>

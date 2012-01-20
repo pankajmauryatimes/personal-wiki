@@ -24,13 +24,14 @@ The Wiki records some academic notes and some of my interests.
 * [[Movies][Movies I've watched]]. I'm a movie addict.
 * [[music][Music I love]]. Jazz. Cantonese Pop. Albums and Pieces.
 <!-- [[Pastebin][My Pastebin for Random Stuff]] (Only for personal use; not much value here.) -->
-  
+
 == Serious (or not so serious?) Stuff ==
 * [[Math]], notes on math.
   * [[calculus][Calculus]], notes on calculus.
   * [[Combinatorics]], notes/problems/solutions/questions on combinatorics.
   * [[Modeling]].
 * Computer Science (Github (codes, projects, work): https://github.com/concretevitamin/)
+  * [[gcc][Notes on gcc/g++]]. Options/Compiling/Make.
   * [[ProjectEuler][My Project Euler Codes]].
   * [[NOIP 2011 Prep][My Preparation for NOIP 2011]].
   * [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]]. 
@@ -66,4 +67,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: Wed 11 Jan 2012 05:28:49 PM CST
+Last Modified: January 20, 2012 20:17:49 

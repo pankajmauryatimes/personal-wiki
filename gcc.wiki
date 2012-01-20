@@ -1,0 +1,14 @@
+= --help =
+{{{
+  -E                       Preprocess only; do not compile, assemble or link
+  -S                       Compile only; do not assemble or link
+  -c                       Compile and assemble, but do not link
+  -o <file>                Place the output into <file>
+}}}
+
+- `-c` generates `.o`.
+- `-S` generates `.s`, compiled assembly source codes.
+-----
+%title Notes On gcc/g++ - Covi
+Created Date: January 20, 2012 20:14:02<br />
+Last Modified: January 20, 2012 20:17:42 

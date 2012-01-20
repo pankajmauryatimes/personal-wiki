@@ -18,6 +18,7 @@ Change <nowiki>A B</nowiki> to <nowiki>`A` # B</nowiki>.<br />
 == Commands ==
 * Use `@:` to repeat last colon command.
 * To resolve dos/unix format issues, use `:set ff=dos` and `:set ff=unix` (http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem).
+* File encoding issues: `:e! ++enc=utf-8`
 
 == Datestamp ==
 Add<br />
