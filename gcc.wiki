@@ -8,7 +8,10 @@
 
 - `-c` generates `.o`.
 - `-S` generates `.s`, compiled assembly source codes.
+
+= Make and Makefiles =
+- http://mrbook.org/tutorials/make/
 -----
 %title Notes On gcc/g++ - Covi
 Created Date: January 20, 2012 20:14:02<br />
-Last Modified: January 20, 2012 20:17:42 
+Last Modified: January 20, 2012 20:26:31 
