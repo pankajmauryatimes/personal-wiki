@@ -2,15 +2,19 @@
 <head>
 <link rel="Stylesheet" type="text/css" href="style.css" />
 <title>Notes On gcc/g++ - Covi</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=cp936" />
 </head>
 <body>
-<h1 id="toc_1">--help</h1>
+<h1 id="toc_1">Options</h1>
 <pre>
   -E                       Preprocess only; do not compile, assemble or link
   -S                       Compile only; do not assemble or link
   -c                       Compile and assemble, but do not link
   -o &lt;file&gt;                Place the output into &lt;file&gt;
+  
+-idirafter dir
+    Search dir for header files, but do it after all directories specified with -I and the standard system directories have been exhausted. dir is treated as a system include directory. 
+
 </pre>
 
 <ul>
@@ -31,7 +35,7 @@
 <hr />
 <p>
 Created Date: January 20, 2012 20:14:02<br />
-Last Modified: January 20, 2012 20:29:25 
+Last Modified: January 21, 2012 15:24:39 
 </p>
 
 </body>
