@@ -5,6 +5,10 @@ Check out my .vimrc [[vimrc][here]].
 
 * [[A tricky yank task study][Dealing with Kindle's My_Clipping.txt: A tricky yank task study]].
 
+== My Vim Plugins ==
+* [http://www.vim.org/scripts/script.php?script_id=39 Matchit.vim], extended % matching for HTML, LaTeX, and many other languages 
+* [http://www.vim.org/scripts/script.php?script_id=1697 surround.vim], delete/change/add parentheses/quotes/xml-tags/much more with ease.
+
 == Basic Editting Stuff ==
 * If some lines are highlighted in visual mode (checkout `visual-mode`), press `J` to join them altogether.
 
@@ -38,6 +42,4 @@ Use `vim-gtk` or `vim-gnome` under linux (for instance, under `vim-basic` `"+y`,
 # http://www.linuxconfig.org/Vim_Tutorial 
 -------
 %title Vim Notes & Tricks - Covi
-Last Modified: Apr 01, 2011 11:05:40 
-%b %d, %Y %T 
-<U0025><U0062><U0020><U0025><U0064><U002C><U0020><U0025><U0059><U0020><U0025><U0054>
+Last Modified: January 30, 2012 12:49:46 
