@@ -6,8 +6,10 @@ Check out my .vimrc [[vimrc][here]].
 * [[A tricky yank task study][Dealing with Kindle's My_Clipping.txt: A tricky yank task study]].
 
 == My Vim Plugins ==
-* [http://www.vim.org/scripts/script.php?script_id=39 Matchit.vim], extended % matching for HTML, LaTeX, and many other languages 
+* Pathogen. Elegant plugin manager.
+* [http://www.vim.org/scripts/script.php?script_id=39 Matchit.vim], extended % matching for HTML, LaTeX, and many other languages.
 * [http://www.vim.org/scripts/script.php?script_id=1697 surround.vim], delete/change/add parentheses/quotes/xml-tags/much more with ease.
+* ctags + [http://www.vim.org/scripts/script.php?script_id=273 taglist]. Ctags is actually a standalone program, capable of generating a list of functions/variables/classes, i.e. 'tags', found in files in different languages. Taglist.vim displays the result in a vsplit (to get rid of the left-hand scroll bar when it is displayed, `:set guioptions-=L`). A list of ctags tricks [http://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks here].
 
 == Basic Editting Stuff ==
 * If some lines are highlighted in visual mode (checkout `visual-mode`), press `J` to join them altogether.
@@ -42,4 +44,4 @@ Use `vim-gtk` or `vim-gnome` under linux (for instance, under `vim-basic` `"+y`,
 # http://www.linuxconfig.org/Vim_Tutorial 
 -------
 %title Vim Notes & Tricks - Covi
-Last Modified: January 30, 2012 12:49:46 
+Last Modified: January 31, 2012 19:38:26 

@@ -46,7 +46,7 @@ The Wiki records some academic notes and some of my interests.
 * [[Macroeconomics]].
 
 == Tools ==
-* [[Vim]]
+* [[Vim]]. _The_ editor you need. I don't edit things without it.
   * [[Vimwiki]], an extension for Vim that enables editting and maintaining a personal Wiki.
   * [[Vimperator]], a Firefox extension that renders browsing utimately pleasant.
 * [[Filezilla]]
