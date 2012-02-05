@@ -1,4 +1,9 @@
-body {font-family: Georgia, Tahoma, sans-serif; margin: 1em 2em 1em 2em; font-size: 100%; line-height: 130%;}
+body {
+    font-family: Georgia, Tahoma, sans-serif; 
+    margin: 1em 2em 1em 2em; 
+    font-size: 100%;
+    line-height: 130%;
+}
 h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, serif; margin-top: 1.5em; margin-bottom: 0.5em;}
 h1 {font-size: 2.0em; color: #a77070;}
 h2 {font-size: 1.6em; color: #779977;}
@@ -11,7 +16,9 @@ ul ul, ul ol, ol ol, ol ul {margin-top: 0.5em; margin-bottom: 0.5em;}
 li {margin: 0.3em auto;}
 ul {margin-left: 2em; padding-left: 0.5em;}
 dt {font-weight: bold;}
-img {border: none;}
+img {
+    border: none;
+}
 pre {border-left: 1px solid #ccc; margin-left: 2em; padding-left: 0.5em;}
 blockquote {padding: 0.4em; background-color: #f6f5eb;}
 th, td {border: 1px solid #ccc; padding: 0.3em;}
@@ -24,7 +31,13 @@ del {text-decoration: line-through; color: #777777;}
 .justright {text-align: right;}
 .justcenter {text-align: center;}
 .center {margin-left: auto; margin-right: auto;}
-a:focus, a:hover, a:active, a:visited {
-	outline: none;
+a {
+    outline: none;
     text-decoration: none;
+}
+a:visited {
+    color: #0000FF;
+}
+a:hover {
+    color: #5386DF;
 }

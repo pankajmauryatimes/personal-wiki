@@ -16,7 +16,7 @@ This personal Wiki is constructed and maintained with [http://www.vim.org/ Vim] 
 
 The Wiki records some academic notes and some of my interests.
 
-== ME ==
+== Me ==
 * [[me][About Me]]
 * [[Reading][My Reading]]
 * [[Movies][Movies I've watched]]. I'm a (good-) movie semi-addict. It's itself a distinct art form, different from literary works or even the scripts. Movies = Watch, think, and enjoy.
@@ -45,18 +45,20 @@ The Wiki records some academic notes and some of my interests.
 * [[Microeconomics]].
 * [[Macroeconomics]].
 
-== Tools ==
+== Tools + Geeky Stuff ==
 * [[Vim]]. _The_ editor you need. I don't edit things without it.
   * [[Vimwiki]], an extension for Vim that enables editting and maintaining a personal Wiki.
   * [[Vimperator]], a Firefox extension that renders browsing utimately pleasant.
 * [[Filezilla]]
 * [[Irssi]], a solid [http://en.wikipedia.org/wiki/Internet_Relay_Chat IRC] client.
 * [[Git]]. I'm learning this powerful VCS. 
-  - Check out how I use Git, Vimwiki, cron, and several other fantastic tools to maintain this Wiki here: [[About][About the Maintenance of this Personal Knowledge Base]].
 * [[MathJax with Vimwiki]]. Check out how I set up !MathJax with Vimwiki here, so I can display cool math such as $a^2 = b^2 + c^2$.
-
-== Devices ==
 * [[Kindle]]. I am an ardent Kindle advocate.
+
+== About ==
+  - [[About][About the Maintenance of this Personal Knowledge Base]]. Check out how I use Git, Vimwiki, cron, and several other fantastic tools to maintain this Wiki here. 
+  - [[log][Site Maintenance Log]].
+ 
 --------
 == Contact ==
 http://geotakucovi.com/mail0.png
@@ -65,4 +67,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: January 31, 2012 19:33:19 
+Last Modified: February 05, 2012 20:31:50 
