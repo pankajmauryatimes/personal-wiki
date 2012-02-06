@@ -59,7 +59,6 @@ The Wiki records some academic notes and some of my interests.
   - [[About][About the Maintenance of this Personal Knowledge Base]]. Check out how I use Git, Vimwiki, cron, and several other fantastic tools to maintain this Wiki here. 
   - [[log][Site Maintenance Log]].
  
---------
 == Contact ==
 http://geotakucovi.com/mail0.png
 
@@ -67,4 +66,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: February 06, 2012 18:54:14 
+Last Modified: February 06, 2012 19:09:15 

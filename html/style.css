@@ -1,7 +1,9 @@
 body {
     font-family: Georgia, Tahoma, sans-serif; 
-    margin: 1em 2em 1em 2em; 
+    /*margin: 1em 2em 1em 2em; */
     font-size: 100%;
+    width: 750px;
+    margin: auto;
     line-height: 130%;
 }
 h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, serif; margin-top: 1.5em; margin-bottom: 0.5em;}

@@ -2,8 +2,9 @@
 (_NOTE_: I started this log on Feb 5, 2012. The [https://github.com/concretevitamin/personal-wiki/commits/master commit history] at Github contains more complete log.)
 
 Feb 5, 2012. Edited CSS: modify the appearance of hyperlinks.
+Feb 6, 2012. Edited CSS: modify the layout (margins) of the pages.
 
 -----
 %title Site Maintenance Log - Covi
 Created Date: February 05, 2012 20:27:52<br />
-Last Modified: February 05, 2012 20:31:24 
+Last Modified: February 06, 2012 19:10:41 
