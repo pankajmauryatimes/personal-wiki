@@ -1,7 +1,4 @@
 = Vim Notes & Tricks =
-此处记录我使用 Vim 的笔记与心得。
-
-Check out my .vimrc [[vimrc][here]].
 
 * [[A tricky yank task study][Dealing with Kindle's My_Clipping.txt: A tricky yank task study]].
 
@@ -44,4 +41,4 @@ Use `vim-gtk` or `vim-gnome` under linux (for instance, under `vim-basic` `"+y`,
 # http://www.linuxconfig.org/Vim_Tutorial 
 -------
 %title Vim Notes & Tricks - Covi
-Last Modified: January 31, 2012 19:38:26 
+Last Modified: February 06, 2012 18:54:24 

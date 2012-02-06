@@ -46,7 +46,7 @@ The Wiki records some academic notes and some of my interests.
 * [[Macroeconomics]].
 
 == Tools + Geeky Stuff ==
-* [[Vim]]. _The_ editor you need. I don't edit things without it.
+* [[Vim]]. _The_ editor. I don't edit things without it. [https://github.com/concretevitamin/vim_config My vimrc at Github].
   * [[Vimwiki]], an extension for Vim that enables editting and maintaining a personal Wiki.
   * [[Vimperator]], a Firefox extension that renders browsing utimately pleasant.
 * [[Filezilla]]
@@ -67,4 +67,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: February 05, 2012 20:31:50 
+Last Modified: February 06, 2012 18:54:14 
