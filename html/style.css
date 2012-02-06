@@ -21,7 +21,20 @@ dt {font-weight: bold;}
 img {
     border: none;
 }
-pre {border-left: 1px solid #ccc; margin-left: 2em; padding-left: 0.5em;}
+pre {
+    border-left: 1px solid #ccc; 
+    margin-left: 2em; 
+    padding-left: 0.5em;
+
+    /* http://www.longren.org/wrapping-text-inside-pre-tags/ */
+    /* word-wrap inside <pre> */
+    /* Added: Feb 6, 2012 */
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
 blockquote {padding: 0.4em; background-color: #f6f5eb;}
 th, td {border: 1px solid #ccc; padding: 0.3em;}
 th {background-color: #f0f0f0;}
