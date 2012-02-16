@@ -1,0 +1,51 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+<title>Collection of Code Snippets - Covi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1 id="toc_1">Haskell</h1>
+
+<h2 id="toc_1.1">Quicksort in Haskell...</h2>
+<pre>
+quicksort' :: (Ord a) =&gt; [a] -&gt; [a]
+quicksort' [] = []
+quicksort' (x:xs) =
+    let bigger = quicksort' [a | a &lt;- xs, a &gt; x]
+        smaller = quicksort' [a | a &lt;- xs, a &lt;= x]
+    in  bigger ++ [x] ++ smaller
+</pre>
+<p>
+I had three words to say when I saw the above: OH. MY. GOD.
+</p>
+
+<h1 id="toc_2">Python</h1>
+
+<ul>
+<li>
+<a href="python_prime_generator.html">Prime generator</a>.
+</li>
+</ul>
+
+<hr />
+<p>
+Created Date: February 16, 2012 09:36:57<br />
+Last Modified: February 16, 2012 09:39:25 
+</p>
+
+</body>
+
+<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ],
+        processEscapes: true
+    }
+  });
+</script>
+
+</html>

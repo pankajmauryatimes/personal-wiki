@@ -1,0 +1,21 @@
+= Haskell =
+
+== Quicksort in Haskell... ==
+{{{
+quicksort' :: (Ord a) => [a] -> [a]
+quicksort' [] = []
+quicksort' (x:xs) =
+    let bigger = quicksort' [a | a <- xs, a > x]
+        smaller = quicksort' [a | a <- xs, a <= x]
+    in  bigger ++ [x] ++ smaller
+}}}
+I had three words to say when I saw the above: OH. MY. GOD.
+
+= Python =
+
+* [[python_prime_generator][Prime generator]].
+
+-----
+%title Collection of Code Snippets - Covi
+Created Date: February 16, 2012 09:36:57<br />
+Last Modified: February 16, 2012 09:39:25 
