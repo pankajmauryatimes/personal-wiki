@@ -9,7 +9,13 @@ quicksort' (x:xs) =
         smaller = quicksort' [a | a <- xs, a <= x]
     in  bigger ++ [x] ++ smaller
 }}}
-I had three words to say when I saw the above: OH. MY. GOD.
+I had these three words to say when I saw the above: OH. MY. GOD.
+
+== Fibonacci ==
+{{{
+fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+}}}
+How elegant is that. [http://en.literateprograms.org/Fibonacci_numbers_(Haskell) Source].
 
 = Python =
 
@@ -18,4 +24,4 @@ I had three words to say when I saw the above: OH. MY. GOD.
 -----
 %title Collection of Code Snippets - Covi
 Created Date: February 16, 2012 09:36:57<br />
-Last Modified: February 16, 2012 09:39:25 
+Last Modified: February 16, 2012 16:00:54 
