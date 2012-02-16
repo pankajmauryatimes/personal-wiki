@@ -1,6 +1,8 @@
-= Haskell =
+%toc Table of Contents
 
-== Quicksort in Haskell... ==
+== Haskell ==
+
+=== Quicksort in Haskell... ===
 {{{
 quicksort' :: (Ord a) => [a] -> [a]
 quicksort' [] = []
@@ -11,13 +13,13 @@ quicksort' (x:xs) =
 }}}
 I had these three words to say when I saw the above: OH. MY. GOD.
 
-== Fibonacci ==
+=== Fibonacci ===
 {{{
 fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
 }}}
 How elegant is that. [http://en.literateprograms.org/Fibonacci_numbers_(Haskell) Source].
 
-= Python =
+== Python ==
 
 * [[python_prime_generator][Prime generator]].
 
