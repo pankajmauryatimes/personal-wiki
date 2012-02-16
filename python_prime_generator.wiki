@@ -1,4 +1,5 @@
-{{{"""http://stackoverflow.com/questions/567222/simple-prime-generator-in-python"""
+{{{
+"""http://stackoverflow.com/questions/567222/simple-prime-generator-in-python"""
 
 def gen_primes():
     """ Generate an infinite sequence of prime numbers.
