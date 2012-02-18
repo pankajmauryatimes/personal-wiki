@@ -7,8 +7,8 @@
 quicksort' :: (Ord a) => [a] -> [a]
 quicksort' [] = []
 quicksort' (x:xs) =
-    let bigger = quicksort' [a | a <- xs, a > x]
-        smaller = quicksort' [a | a <- xs, a <= x]
+    let bigger = quicksort' (filter (>x) xs)
+        smaller = quicksort' (filter (<=x) xs)
     in  bigger ++ [x] ++ smaller
 }}}
 I had these three words to say when I saw the above: OH. MY. GOD.
@@ -26,4 +26,4 @@ How elegant is that. [http://en.literateprograms.org/Fibonacci_numbers_(Haskell)
 -----
 %title Collection of Code Snippets - Covi
 Created Date: February 16, 2012 09:36:57<br />
-Last Modified: February 16, 2012 16:00:54 
+Last Modified: February 18, 2012 21:14:46 

@@ -25,8 +25,8 @@
 quicksort' :: (Ord a) =&gt; [a] -&gt; [a]
 quicksort' [] = []
 quicksort' (x:xs) =
-    let bigger = quicksort' [a | a &lt;- xs, a &gt; x]
-        smaller = quicksort' [a | a &lt;- xs, a &lt;= x]
+    let bigger = quicksort' (filter (&gt;x) xs)
+        smaller = quicksort' (filter (&lt;=x) xs)
     in  bigger ++ [x] ++ smaller
 </pre>
 <p>
@@ -52,7 +52,7 @@ How elegant is that. <a href="http://en.literateprograms.org/Fibonacci_numbers_(
 <hr />
 <p>
 Created Date: February 16, 2012 09:36:57<br />
-Last Modified: February 16, 2012 16:00:54 
+Last Modified: February 18, 2012 21:14:46 
 </p>
 
 </body>
