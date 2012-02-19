@@ -11,7 +11,7 @@
 <li><a href="#toc_0.1">Haskell</a></li>
 <ul>
 <li><a href="#toc_0.1.1">Quicksort in Haskell...</a></li>
-<li><a href="#toc_0.1.2">Fibonacci</a></li>
+<li><a href="#toc_0.1.2">Fibonacci, the Hello World in Haskell</a></li>
 </ul>
 <li><a href="#toc_0.2">Python</a></li>
 </ul>
@@ -33,12 +33,15 @@ quicksort' (x:xs) =
 I had these three words to say when I saw the above: OH. MY. GOD.
 </p>
 
-<h3 id="toc_0.1.2">Fibonacci</h3>
+<h3 id="toc_0.1.2">Fibonacci, the Hello World in Haskell</h3>
 <pre>
 fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+
+-- or
+fibs = 0 : scanl (+) 1 fibs
 </pre>
 <p>
-How elegant is that. <a href="http://en.literateprograms.org/Fibonacci_numbers_(Haskell)">Source</a>.
+How elegant is that.
 </p>
 
 <h2 id="toc_0.2">Python</h2>
@@ -52,7 +55,7 @@ How elegant is that. <a href="http://en.literateprograms.org/Fibonacci_numbers_(
 <hr />
 <p>
 Created Date: February 16, 2012 09:36:57<br />
-Last Modified: February 18, 2012 21:14:46 
+Last Modified: February 19, 2012 17:20:33 
 </p>
 
 </body>

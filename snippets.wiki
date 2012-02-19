@@ -13,11 +13,14 @@ quicksort' (x:xs) =
 }}}
 I had these three words to say when I saw the above: OH. MY. GOD.
 
-=== Fibonacci ===
+=== Fibonacci, the Hello World in Haskell ===
 {{{
 fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+
+-- or
+fibs = 0 : scanl (+) 1 fibs
 }}}
-How elegant is that. [http://en.literateprograms.org/Fibonacci_numbers_(Haskell) Source].
+How elegant is that.
 
 == Python ==
 
@@ -26,4 +29,4 @@ How elegant is that. [http://en.literateprograms.org/Fibonacci_numbers_(Haskell)
 -----
 %title Collection of Code Snippets - Covi
 Created Date: February 16, 2012 09:36:57<br />
-Last Modified: February 18, 2012 21:14:46 
+Last Modified: February 19, 2012 17:20:33 
