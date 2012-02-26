@@ -1,7 +1,7 @@
 = Linux Notes =
 
 == TO-DO SPACE ==
-screen, tmux, conqueterm vim plugin, awesome
+screen, tmux, conqueterm vim plugin, awesome, xmonad
 
 == Commands ==
 *ls*<br />
@@ -46,8 +46,9 @@ Create VIMRC file under HOME and name it `.vimperatorrc`.<br />
 == (General) Notes ==
 `#` Check out `man gnome-` and press `<Tab>`.<br />
 `#` Use S+ page up/down to scroll up and down in terminal.<br />
+`#` In Ubuntu, software sources are maintained in `/etc/apt/sources.list`.
 
 ------
 %title Linux Notes - Covi
 Created Date: Feb 17, 2011 23:00:39<br />
-Last Modified: January 12, 2012 19:32:57 
+Last Modified: Sun 26 Feb 2012 09:50:44 AM CST
