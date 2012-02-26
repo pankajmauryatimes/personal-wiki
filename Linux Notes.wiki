@@ -54,4 +54,4 @@ screen, tmux, conqueterm vim plugin, awesome, xmonad
 ------
 %title Linux Notes - Covi
 Created Date: Feb 17, 2011 23:00:39<br />
-Last Modified: Sun 26 Feb 2012 10:34:00 AM CST
+Last Modified: Sun 26 Feb 2012 02:37:49 PM CST
