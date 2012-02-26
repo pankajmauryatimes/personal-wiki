@@ -46,9 +46,9 @@ Create VIMRC file under HOME and name it `.vimperatorrc`.<br />
 == (General) Notes ==
 `#` Check out `man gnome-` and press `<Tab>`.<br />
 `#` Use S+ page up/down to scroll up and down in terminal.<br />
-`#` In Ubuntu, software sources are maintained in `/etc/apt/sources.list`.
+`#` In Ubuntu, software sources are maintained in `/etc/apt/sources.list`. To avoid key/signatures problems, use the command `sudo add-apt-repository`. Also `sudo apt-get update`.
 
 ------
 %title Linux Notes - Covi
 Created Date: Feb 17, 2011 23:00:39<br />
-Last Modified: Sun 26 Feb 2012 09:50:44 AM CST
+Last Modified: Sun 26 Feb 2012 10:30:09 AM CST
