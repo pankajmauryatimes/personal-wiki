@@ -1,0 +1,7 @@
+= Irssi Notes =
+
+- `/set autolog on`. Automatically save logs.
+-----
+%title Irssi Notes - Covi
+Date Created: Sat 25 Feb 2012 12:36:34 PM CST<br>
+Last Modified: Sat 25 Feb 2012 12:36:49 PM CST
