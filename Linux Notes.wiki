@@ -3,6 +3,10 @@
 == TO-DO SPACE ==
 screen, tmux, conqueterm vim plugin, awesome, xmonad
 
+== Software/Repo ==
+- haskell-platform is not packaged for Ubuntu 10.04LTS. Use this outdated ppa: https://launchpad.net/~justinbogner/+archive/haskell-platform
+- In Ubuntu, software sources are maintained in `/etc/apt/sources.list`. To avoid key/signatures problems, use the command `sudo add-apt-repository`. Also `sudo apt-get update`.
+
 == Commands ==
 *ls*<br />
 `ls -a` # `.` before files/directories names means they are hidden files/directories.<br />
@@ -44,11 +48,10 @@ Create VIMRC file under HOME and name it `.vimperatorrc`.<br />
 `man hier` read more on the file system hierarchy. Or [http://en.wikipedia.org/wiki/Unix_directory_structure here].<br />
 
 == (General) Notes ==
-`#` Check out `man gnome-` and press `<Tab>`.<br />
-`#` Use S+ page up/down to scroll up and down in terminal.<br />
-`#` In Ubuntu, software sources are maintained in `/etc/apt/sources.list`. To avoid key/signatures problems, use the command `sudo add-apt-repository`. Also `sudo apt-get update`.
+`#` Auto-completion: Check out `man gnome-` and press `<Tab>`.<br />
+`#` Use S+ page up/down to scroll up and down in the Gnome Terminal.<br />
 
 ------
 %title Linux Notes - Covi
 Created Date: Feb 17, 2011 23:00:39<br />
-Last Modified: Sun 26 Feb 2012 10:30:09 AM CST
+Last Modified: Sun 26 Feb 2012 10:34:00 AM CST
