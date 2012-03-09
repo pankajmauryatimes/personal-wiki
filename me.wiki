@@ -6,11 +6,8 @@
 * Problem Solving
 
 == Objective ==
+
     Explore the world of Computer Science and/or Mathematics; bring change to the world.
-<br />
-<br />
-<br />
-<br />
 
 == Programming and Computer Languages ==
 * C/C++, Java, Pascal, and some Python.
@@ -20,4 +17,4 @@
 ------
 %title About Me - Covi
 Created Date: Feb 07, 2011 21:49:20<br />
-Last Modified: August 26, 2011 10:01:33 
+Last Modified: March 09, 2012 17:23:59 

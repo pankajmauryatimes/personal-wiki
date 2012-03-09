@@ -1,0 +1,23 @@
+= Automatically run commands after Linux starts =
+
+== Process ==
+
+# Place your commands in a `.sh` file and put it into `/etc/init.d`. For example, the script in my case is `/etc/init.d/mystartup.sh`:
+{{{
+#!/bin/sh
+sudo mkdir /media/C
+sudo mount /dev/sda2 /media/C
+}}}
+
+# Run `sudo chmod +x /etc/init.d/mystartup.sh` to make it executable.
+# Run `sudo update-rc.d /etc/init.d/mystartup.sh`. See `man update-rc.d`.
+# Done. Good to go!
+
+== References ==
+- http://embraceubuntu.com/2005/09/07/adding-a-startup-script-to-be-run-at-bootup/
+- http://www.cyberciti.biz/tips/linux-how-to-run-a-command-when-boots-up.html
+- http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch07_:_The_Linux_Boot_Process
+-----
+%title Automatically run commands after Linux starts
+Date Created: Sun 26 Feb 2012 02:27:28 PM CST<br>
+Last Modified: Sun 26 Feb 2012 02:36:43 PM CST

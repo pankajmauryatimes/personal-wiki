@@ -1,12 +1,14 @@
 body {
-    font-family: Georgia, Tahoma, sans-serif; 
+    font-family: Corbel, Cambria, Georgia, Tahoma, sans-serif; 
     /*margin: 1em 2em 1em 2em; */
-    font-size: 100%;
-    width: 750px;
-    margin: auto;
+    font-size: 104%;
     line-height: 130%;
+
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
 }
-h1, h2, h3, h4, h5, h6 {font-family: Trebuchet MS, serif; margin-top: 1.5em; margin-bottom: 0.5em;}
+h1, h2, h3, h4, h5, h6 {font-family: Candara, Trebuchet MS, serif; margin-top: 1.5em; margin-bottom: 0.5em;}
 h1 {font-size: 2.0em; color: #a77070;}
 h2 {font-size: 1.6em; color: #779977;}
 h3 {font-size: 1.3em; color: #555577;}
@@ -22,9 +24,11 @@ img {
     border: none;
 }
 pre {
-    border-left: 1px solid #ccc; 
+    /*border-left: 1px solid #ccc; */
     margin-left: 2em; 
     padding-left: 0.5em;
+
+    background-color: #FEF8C4;
 
     /* http://www.longren.org/wrapping-text-inside-pre-tags/ */
     /* word-wrap inside <pre> */
@@ -35,12 +39,22 @@ pre {
     white-space: -o-pre-wrap; /* Opera 7 */
     word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
-blockquote {padding: 0.4em; background-color: #f6f5eb;}
+blockquote {
+    padding: 0.4em; 
+    background-color: #FEF8C4;
+}
 th, td {border: 1px solid #ccc; padding: 0.3em;}
 th {background-color: #f0f0f0;}
 hr {border: none; border-top: 1px solid #ccc; width: 100%;}
 del {text-decoration: line-through; color: #777777;}
+
+
+/*.toc {
+    background-color: #F4B7B0;
+}*/
 .toc li {list-style-type: none;}
+
+
 .todo {font-weight: bold; background-color: #f0ece8; color: #a03020;}
 .justleft {text-align: left;}
 .justright {text-align: right;}
