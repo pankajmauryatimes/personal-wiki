@@ -1,12 +1,11 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-<link rel="Stylesheet" type="text/css" href="style.css">
-<title>Automatically run commands after Linux starts</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
+    <head>
+        <link rel="Stylesheet" type="text/css" href="style.css" />
+        <title>Automatically run commands after Linux starts</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
 <body>
-
 <h1 id="toc_1">Automatically run commands after Linux starts</h1>
 
 <h2 id="toc_1.1">Process</h2>
@@ -19,32 +18,32 @@ Place your commands in a <code>.sh</code> file and put it into <code>/etc/init.d
 sudo mkdir /media/C
 sudo mount /dev/sda2 /media/C
 </pre>
-
+</li>
 </ol>
 
 <ol>
 <li>
 Run <code>sudo chmod +x /etc/init.d/mystartup.sh</code> to make it executable.
-
+</li>
 <li>
 Run <code>sudo update-rc.d /etc/init.d/mystartup.sh</code>. See <code>man update-rc.d</code>.
-
+</li>
 <li>
 Done. Good to go!
-
+</li>
 </ol>
 
 <h2 id="toc_1.2">References</h2>
 <ul>
 <li>
 <a href="http://embraceubuntu.com/2005/09/07/adding-a-startup-script-to-be-run-at-bootup/">http://embraceubuntu.com/2005/09/07/adding-a-startup-script-to-be-run-at-bootup/</a>
-
+</li>
 <li>
 <a href="http://www.cyberciti.biz/tips/linux-how-to-run-a-command-when-boots-up.html">http://www.cyberciti.biz/tips/linux-how-to-run-a-command-when-boots-up.html</a>
-
+</li>
 <li>
 <a href="http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch07_:_The_Linux_Boot_Process">http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch07_:_The_Linux_Boot_Process</a>
-
+</li>
 </ul>
 <hr />
 <p>
@@ -53,4 +52,17 @@ Last Modified: Sun 26 Feb 2012 02:36:43 PM CST
 </p>
 
 </body>
+
+<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ],
+        processEscapes: true
+    }
+  });
+</script>
+
 </html>

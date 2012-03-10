@@ -1,9 +1,10 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-<link rel="Stylesheet" type="text/css" href="style.css" />
-<title>Statistics - Covi</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-</head>
+    <head>
+        <link rel="Stylesheet" type="text/css" href="style.css" />
+        <title>Statistics - Covi</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
 <body>
 <p>
 <a href="Tests on Ti-84.html">Tests on Ti-84</a>
@@ -249,7 +250,7 @@ conditions: np &amp; n(1-p) &gt; 10 (when this is satisfied, the dis is close to
 </li>
 <ul>
 <li>
-mean: Mu_1 - Mu_2, std: sqrt(STD1<sup><small>2/n1 + STD2</small></sup>2/n2)
+mean: Mu_1 - Mu_2, std: sqrt(STD1^2/n1 + STD2^2/n2)
 </li>
 </ul>
 <li>
@@ -351,4 +352,17 @@ Last Modified: May 08, 2011 11:40:22
 </p>
 
 </body>
+
+<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ],
+        processEscapes: true
+    }
+  });
+</script>
+
 </html>
