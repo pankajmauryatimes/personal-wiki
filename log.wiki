@@ -1,10 +1,11 @@
 = Site Maintenance Log =
-(_NOTE_: I started this log on Feb 5, 2012. The [https://github.com/concretevitamin/personal-wiki/commits/master commit history] at Github contains more complete log.)
+_NOTE_: I started this log on Feb 5, 2012. The [https://github.com/concretevitamin/personal-wiki/commits/master commit history] at Github contains _more_ complete logs.
 
-Feb 5, 2012. Edited CSS: modify the appearance of hyperlinks.
-Feb 6, 2012. Edited CSS: modify the layout (margins) of the pages.
+    Feb 5, 2012. Edited CSS: modify the appearance of hyperlinks.<br>
+    Feb 6, 2012. Edited CSS: modify the layout (margins) of the pages.<br>
+    Mar 10, 2012. Fix auto centering under IE, by adding a doctype declaration in every generated html files.
 
 -----
 %title Site Maintenance Log - Covi
 Created Date: February 05, 2012 20:27:52<br />
-Last Modified: February 06, 2012 19:10:41 
+Last Modified: March 10, 2012 11:08:02 
