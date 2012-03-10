@@ -60,6 +60,7 @@ del {text-decoration: line-through; color: #777777;}
 .justright {text-align: right;}
 .justcenter {text-align: center;}
 .center {margin-left: auto; margin-right: auto;}
+
 a {
     outline: none;
     text-decoration: none;
@@ -69,4 +70,12 @@ a:visited {
 }
 a:hover {
     color: #5386DF;
+}
+
+/* Text Selection */
+::selection	{
+    background:#fff2a8;
+}
+::-moz-selection { /* for Firefox */
+    background:#fff2a8;
 }
