@@ -1,14 +1,8 @@
 = Welcome to Covi's Personal Knowledge Base Wiki! =
 
-[[http://geotakucovi.com/avatar.jpg|Avatar]]
+    ``The greater danger for most of us lies not in setting our aim too high and falling short; but in setting our aim too low, and achieving our mark.'' -- Michelangelo Buonarroti
 
-``The greater danger for most of us lies not in setting our aim too high and falling short; but in setting our aim too low, and achieving our mark.'' -- Michelangelo Buonarroti
-
-``To strive, to seek, to find, and not to yield.'' -- _Ulysses_
-
-*To all frustrated, sleep-deprived, stressed out high school seniors deperately preparing your applications: LISTEN TO CANNONBALL ADDERLEY's MERCY, MERCY, MERCY!*
-
-{{{----------------------------}}}
+    ``To strive, to seek, to find, and not to yield.'' -- Ulysses
 
 Hi! My name is *Zongheng Yang*, a high school senior in [http://www.shenzhong.net Shenzhen Middle School], Shenzhen, China ([http://maps.google.com/maps?q=shenzhen,+china&hl=en&client=firefox-a&gl=us&z=10&vpsrc=0 Google Maps]). 
 
@@ -67,4 +61,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: February 16, 2012 09:36:21 
+Last Modified: March 10, 2012 11:17:37 
