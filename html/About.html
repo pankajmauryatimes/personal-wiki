@@ -13,52 +13,37 @@ This entire Wiki is maintained with several fantastic tools. The primary ones ar
 </p>
 
 <p>
-<strong>Dropbox</strong>. Dropbox enables me to crowd-store my files. Leaving important files solely in your hard drive is a dangerous decision. I lost a laptop along with tons of invaluable files once. Dropbox solves the problem.
+<strong>Dropbox &amp; Github</strong>. Dropbox enables me to crowd-store my files. Leaving important files solely in your hard drive is a dangerous decision. I lost a laptop along with tons of invaluable files once. Dropbox solves the problem. Github serves a similar purpose.
 </p>
 
 <p>
-<strong>Git and Github</strong>. Generally, after I editted an existed .wiki file or created a new one, I did the following commands to make sure Git tracks my progress and push the files to Github:
+<strong>Git</strong>. Generally, after I editted an existed <code>.wiki</code> file or created a new one, I did the following commands to make sure Git tracks my progress and push to my repos:
 </p>
 <blockquote>
-git add . % if I created new files<br />
-git comm 'MESSAGE' % or sometimes git comm 'MESSAGE' --amend<br />
+git add .<br>
+git comm 'MESSAGE'<br>
 git push
+git push dh
 </blockquote>
 
 <p>
-And boom. My files are instantaneously tracked and uploaded to Github. To upload them to my website server requires several slightly different commands:
+And boom. My files are instantaneously tracked and pushed to the repos on Github and on my dreamhost server. To actually update the <code>.html</code> files so that people can visit <code>me.geotakucovi.com</code> to view the latest version, these commands are needed:
 </p>
 <blockquote>
-git add and git comm as above<br />
-git push myserver<br />
-(on my server) git reset --hard
+$ mkdir /me.geotakucovi.com<br>
+$ cat &gt; hooks/post-receive<br>
+#!/bin/sh<br>
+GIT_WORK_TREE=/me.geotakucovi.com git checkout -f<br>
+$ chmod +x hooks/post-receive<br>
 </blockquote>
 
 <p>
-There are two major drawbacks with this combination of tools: 
-</p>
-
-<ol>
-<li>
-Github does not correctly regonize Vimwiki format/markup. The effect is if I read my .wiki files on Github, they can look rather messy.
-</li>
-<li>
-<del>The manipulation seems tedious. As my knowledge of Git and Linux accumulate, I expect a more elegant solution in the future.</del> 
-</li>
-<ul>
-<li>
-(<strong>OBSOLETE</strong>) Solution: run <code>ssh user@domain.com ./git</code> directly in my Git Bash, and the nice little shell script <code>git</code> I wrote does the <code>cd</code> and <code>reset --hard</code> stuff.
-</li>
-</ul>
-</ol>
-
-<p>
-Oct 22, 2011 <strong>Update</strong>: There's a better solution than the above: ask <strong>cron</strong> to run <code>./git</code> command every 10 minutes. Life saved.
+It sets up a git <code>post-receive</code> hook, and the hook will update the actual files whenever the git repo is updated. See <a href="http://toroid.org/ams/git-website-howto">Using Git to manage a web site</a>.
 </p>
 
 <hr />
 <p>
-Last Modified: October 22, 2011 12:35:18 
+Last Modified: March 19, 2012 11:00:04 
 </p>
 
 </body>

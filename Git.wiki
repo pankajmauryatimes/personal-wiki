@@ -1,4 +1,6 @@
-I automatically push my entire wiki to https://github.com/concretevitamin/personal-wiki. Check out how [[About][Here]].
+= Git =
+
+I live push my entire wiki from my local computer to this website and https://github.com/concretevitamin/personal-wiki. Check out how [[About][Here]].
 
 [http://progit.org/book/ Pro Git], THE tutorial.
 
@@ -13,4 +15,4 @@ I automatically push my entire wiki to https://github.com/concretevitamin/person
     * git comm 'MSG' --amend
 -----
 %title Git - Covi
-Last Modified: October 03, 2011 15:16:31 
+Last Modified: March 17, 2012 20:48:59 
