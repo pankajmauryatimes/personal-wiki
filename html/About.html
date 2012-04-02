@@ -19,23 +19,23 @@ This entire Wiki is maintained with several fantastic tools. The primary ones ar
 <p>
 <strong>Git</strong>. Generally, after I editted an existed <code>.wiki</code> file or created a new one, I did the following commands to make sure Git tracks my progress and push to my repos:
 </p>
-<blockquote>
-git add .<br>
-git comm 'MESSAGE'<br>
+<pre>
+git add .
+git comm 'MESSAGE'
 git push
 git push dh
-</blockquote>
+</pre>
 
 <p>
 And boom. My files are instantaneously tracked and pushed to the repos on Github and on my dreamhost server. To actually update the <code>.html</code> files so that people can visit <code>me.geotakucovi.com</code> to view the latest version, these commands are needed:
 </p>
-<blockquote>
-$ mkdir /me.geotakucovi.com<br>
-$ cat &gt; hooks/post-receive<br>
-#!/bin/sh<br>
-GIT_WORK_TREE=/me.geotakucovi.com git checkout -f<br>
-$ chmod +x hooks/post-receive<br>
-</blockquote>
+<pre>
+$ mkdir /me.geotakucovi.com
+$ cat &gt; hooks/post-receive
+#!/bin/sh
+GIT_WORK_TREE=/me.geotakucovi.com git checkout -f
+$ chmod +x hooks/post-receive
+</pre>
 
 <p>
 It sets up a git <code>post-receive</code> hook, and the hook will update the actual files whenever the git repo is updated. See <a href="http://toroid.org/ams/git-website-howto">Using Git to manage a web site</a>.

@@ -5,19 +5,21 @@ This entire Wiki is maintained with several fantastic tools. The primary ones ar
 *Dropbox & Github*. Dropbox enables me to crowd-store my files. Leaving important files solely in your hard drive is a dangerous decision. I lost a laptop along with tons of invaluable files once. Dropbox solves the problem. Github serves a similar purpose.
 
 *Git*. Generally, after I editted an existed `.wiki` file or created a new one, I did the following commands to make sure Git tracks my progress and push to my repos:
-
-    git add .<br>
-    git comm 'MESSAGE'<br>
-    git push
-    git push dh
+{{{
+git add .
+git comm 'MESSAGE'
+git push
+git push dh
+}}}
 
 And boom. My files are instantaneously tracked and pushed to the repos on Github and on my dreamhost server. To actually update the `.html` files so that people can visit `me.geotakucovi.com` to view the latest version, these commands are needed:
-
-    $ mkdir /me.geotakucovi.com<br>
-    $ cat > hooks/post-receive<br>
-    #!/bin/sh<br>
-    GIT_WORK_TREE=/me.geotakucovi.com git checkout -f<br>
-    $ chmod +x hooks/post-receive<br>
+{{{
+$ mkdir /me.geotakucovi.com
+$ cat > hooks/post-receive
+#!/bin/sh
+GIT_WORK_TREE=/me.geotakucovi.com git checkout -f
+$ chmod +x hooks/post-receive
+}}}
 
 It sets up a git `post-receive` hook, and the hook will update the actual files whenever the git repo is updated. See [http://toroid.org/ams/git-website-howto Using Git to manage a web site].
 
