@@ -3,6 +3,9 @@
 == TO-DO SPACE ==
 screen, tmux, conqueterm vim plugin, awesome, xmonad
 
+== Scripts ==
+- Automatic Brightness Adjust at Startup: http://blog.ishans.info/2011/09/25/set-brightness-automatically-at-the-startup-in-linux/. [[setBrightness|Script]].
+
 == Software/Repo ==
 - haskell-platform is not packaged for Ubuntu 10.04LTS. Use this outdated ppa: https://launchpad.net/~justinbogner/+archive/haskell-platform
 - In Ubuntu, software sources are maintained in `/etc/apt/sources.list`. To avoid key/signatures problems, use the command `sudo add-apt-repository`. Also `sudo apt-get update`.
@@ -52,4 +55,4 @@ screen, tmux, conqueterm vim plugin, awesome, xmonad
 ------
 %title Linux Notes - Covi
 Created Date: Feb 17, 2011 23:00:39<br />
-Last Modified: Sat 21 Apr 2012 10:18:55 PM CST
+Last Modified: Sun 22 Apr 2012 07:58:18 PM CST
