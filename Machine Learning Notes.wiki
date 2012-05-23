@@ -1,0 +1,12 @@
+= Machine Learning Notes =
+
+Since Apr 2012 I have been taking Coursera.org's online Machine Learning course.
+
+== Notes ==
+* Logistic regression. ([http://me.geotakucovi.com/logistic.html html] | [http://me.geotakucovi.com/logistic.pdf pdf])
+* Regularization (for linear regression and logistic regression). ([http://me.geotakucovi.com/regularization.pdf pdf])
+
+-----
+%title Machine Learning Notes - Covi
+Creation Date: May 23, 2012 23:23:51<br />
+Last Modified: May 23, 2012 23:30:54 

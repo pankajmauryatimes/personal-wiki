@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Zongheng Yang">
+  <meta name="dcterms.date" content="2012-05-18">
+  <title>Logistic Regression</title>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1 class="title">Logistic Regression</h1>
+<h2 class="author">Zongheng Yang</h2>
+<h3 class="date">May 18, 2012</h3>
+</header>
+<h1 id="problem-of-linear-regression-in-binary-classfication">Problem of Linear Regression in Binary Classfication</h1>
+<p>In linear regression, \(y = 0\) or \(1\), yet \(h_\theta(x)\) can be greater than one or less than zero. In logistic regression, \(0 \leq h_\theta(x) \leq 1\).</p>
+<h1 id="hypothesis">Hypothesis</h1>
+<p>To make \(0 \leq h_\theta(x) \leq 1\), define it as:</p>
+<p>\[\begin{aligned}
+g(x) &amp;= \frac{1}{1 + e^{-x}} \quad \text{(the Sigmoid function)}\\
+h_\theta(x) &amp;= g(\theta^Tx) = \frac{1}{1 + e^{-\theta^Tx}}\end{aligned}\]</p>
+<p>Interpret \(h_\theta(x)\) as the probability that \(y = 1\). The <strong>decision boundary</strong>: predict \(y = 1\) if \(h_\theta(x) \geq 0.5\) which is equivalent to \(\theta^Tx \geq 0\).</p>
+<h1 id="cost-function">Cost Function</h1>
+<p>In linear regression, cost function is defined as</p>
+<p>\[\begin{aligned}
+J(\theta) &amp;= \frac{1}{m} \sum_{i = 1}^{m} \frac{1}{2} (h_\theta(x^{(i)}) - y^{(i)})^2 \\
+&amp;= \frac{1}{m}\sum_{i = 1}^{m} Cost(h_\theta(x^{(i)}), y^{(i)}).\end{aligned}\]</p>
+<p>It can be shown that the above \(Cost\) function is not a convex one in the case of logistic regression. Therefore, define the \(Cost\) function for logistic regression as</p>
+<p>\[\begin{aligned}
+Cost(h_\theta(x), y) = -y\log{h_\theta(x)} - (1 - y) \log{(1 - h_\theta(x))},\end{aligned}\]</p>
+<p>therefore the cost function for logistic regression is</p>
+<p>\[\begin{aligned}
+J(\theta) &amp;= \frac{1}{m}\sum_{i = 1}^{m} Cost(h_\theta(x^{(i)}), y^{(i)}) \\
+&amp;= -\frac{1}{m} [\sum_{i = 1}^{m} y^{(i)}\log{h_\theta(x^{(i)})} + (1 - y^{(i)}) \log{(1 - h_\theta(x^{(i)}))}].\end{aligned}\]</p>
+<p>It can be shown via the principle of maximum likelihood estimation that the cost function \(J(\theta)\) is convex. In addition, notice that \(J(\theta) \geq 0\) at all times.</p>
+<p>Taking the partial derivative: \[\frac{\partial}{\partial \theta_j} J(\theta) = \frac{1}{m} \sum_{i = 1}^{m} (h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)},\] so the gradient descent algorithm for logistic regression is</p>
+<p>\[\begin{aligned}
+\theta_j &amp;:= \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta) \\
+&amp;= \alpha \frac{1}{m} \sum_{i = 1}^{m} (h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)}.\end{aligned}\]</p>
+<h1 id="optimization-algorithms">Optimization Algorithms</h1>
+<p>gradient descent, and more advanced ones (faster, no need to manually pick \(\alpha\), more complex): conjugate gradient, BFGS, L-BFGS.</p>
+</body>
+</html>
