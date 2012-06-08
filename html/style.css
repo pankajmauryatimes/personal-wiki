@@ -1,5 +1,9 @@
+@font-face {
+    font-family: Galdeano;
+    src: url('Galdeano-Regular.ttf');
+}
 body {
-    font-family: Corbel, Cambria, Georgia, Tahoma, sans-serif; 
+    font-family: Galdeano, Corbel, Cambria, Georgia, Tahoma, sans-serif; 
     /*margin: 1em 2em 1em 2em; */
     font-size: 104%;
     line-height: 130%;
