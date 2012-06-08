@@ -1,19 +1,22 @@
-{{{
-high bias = underfit
+= Issues in training models =
+{{{high bias = underfit
 J_train high, J_CV similar
 
 high variance = overfit
 J_train low, J_CV high
+}}}
 
+== Selecting regularization parameter, lambda ==
+Define:<br>
+J = the original cost function with regularization penalty term, used in training;<br>
+J_train = J_CV = J_test = cost function, used as `errors'.<br>
 
-= Selecting regularization parameter \lambda =
-
-Define:
-J_train = the original cost function + regularization penalty term
-J_CV = J_test = original cost function
-
-Try different values of lambda and by minimizing J_train we obtain a set of optimal thetas, each corresponding to each lambda value.
+Selection process:
+{{{Try different values of lambda and by minimizing J we obtain a set of optimal thetas, each corresponding to each lambda value.
 Try each optimal theta, select the one that minimizes J_CV. Thus, we obtain theta and lambda for our model.
 J_CV is an appropriate estimate for J_test.
-
 }}}
+-----
+%title Issues in training models
+Creation Date: Fri 08 Jun 2012 01:58:37 PM CST<br>
+Last Modified: Fri 08 Jun 2012 01:58:45 PM CST
