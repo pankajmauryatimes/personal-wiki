@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Issues in training models</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<pre>
+high bias = underfit
+J_train high, J_CV similar
+
+high variance = overfit
+J_train low, J_CV high
+
+
+= Selecting regularization parameter \lambda =
+
+Define:
+J_train = the original cost function + regularization penalty term
+J_CV = J_test = original cost function
+
+Try different values of lambda and by minimizing J_train we obtain a set of optimal thetas, each corresponding to each lambda value.
+Try each optimal theta, select the one that minimizes J_CV. Thus, we obtain theta and lambda for our model.
+J_CV is an appropriate estimate for J_test.
+
+</pre>
+
+</body>
+</html>
