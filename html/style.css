@@ -3,7 +3,7 @@
     src: url('Galdeano-Regular.ttf');
 }
 body {
-    font-family: Galdeano, Corbel, Cambria, Georgia, Tahoma, sans-serif; 
+    font-family: Corbel, Galdeano, Cambria, Georgia, Tahoma, sans-serif; 
     /*margin: 1em 2em 1em 2em; */
     font-size: 104%;
     line-height: 130%;
