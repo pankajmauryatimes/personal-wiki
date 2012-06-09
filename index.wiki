@@ -23,7 +23,8 @@ The Wiki records some academic notes and some of my interests.
   * [[Combinatorics]], notes/problems/solutions/questions on combinatorics.
   * [[Modeling]].
 * Computer Science (Github (codes, projects, work): https://github.com/concretevitamin/)
-  * Notes: [[Machine Learning Notes]].  [[NOIP Notes][Some basic notes]].  [[Python Notes]].  [[AP Computer Science]].  [[Graph Theory and Algorithms]].  [[gcc][Notes on gcc/g++]]. 
+  * [[Machine Learning Notes][Machine Learning (ML)]]. [[NLP Notes][Natural Language Processing (NLP)]].
+  * Notes: .  [[NOIP Notes][Some basic notes]].  [[Python Notes]].  [[AP Computer Science]].  [[Graph Theory and Algorithms]].  [[gcc][Notes on gcc/g++]]. 
   * [[ProjectEuler][My Project Euler Codes]]. [[snippets][Collection of Code Snippets]].
   * [[NOIP 2011 Prep][My Preparation for NOIP 2011]].
   * [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]]. 
@@ -56,4 +57,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: May 23, 2012 23:28:42 
+Last Modified: June 10, 2012 00:02:17 

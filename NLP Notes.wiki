@@ -1,0 +1,11 @@
+= NLP Notes =
+
+Since Apr 2012 I have been taking Coursera.org's online NLP course, offered by Stanford professors.
+
+== Notes ==
+* Maximum Entropy (Maxent) models. ([http://me.geotakucovi.com/maxent.html html] | [http://me.geotakucovi.com/maxent.pdf pdf])
+
+-----
+%title NLP Notes - Covi
+Creation Date: June 10, 2012 00:03:41<br>
+Last Modified: June 10, 2012 00:03:41 

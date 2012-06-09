@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Zongheng Yang">
+  <title>Maximum Entropy Models</title>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1 class="title">Maximum Entropy Models</h1>
+<h2 class="author">Zongheng Yang</h2>
+<h3 class="date">Last Modified: Jun 9, 2012</h3>
+</header>
+<h1 id="overview">Overview</h1>
+<p>Maximum entropy models in NLP seek to maximize the entropy of observed data (training data) under the constraint that the model distribution of every feature should equal the corresponding empirical distribution.</p>
+<p>Entropy \(H\) is defined as the expected surprise:</p>
+<p>\[\begin{aligned}
+H(p) = E_p log_2(\frac{1}{p_x}) = - \sum_x p_x log_2p_x\end{aligned}\]</p>
+<p>where \(p_x\) denotes the probability of event x. (See Slide 12-16 of Stanford NLP’s AdvancedMaxent.pdf for demonstration of calculating Maxent probabilities.)</p>
+<p>The theorectical foundation of this collection of models is the <a href="http://en.wikipedia.org/wiki/Principle_of_maximum_entropy">principle of maximum entropy</a>, which states “the probability distribution which best represents the current state of knowledge is the one with largest information theoretical entropy.”</p>
+<p>Maxent models are discriminative models, different from generative models such as Naive Bayes model. In particular, unlike Naive Bayes, Maxent models do not assume feature independence.</p>
+<h1 id="generative-models-vs.-discriminative-models">Generative Models vs. Discriminative Models</h1>
+<p><strong>Generative models</strong> place probabilities over observed data + “hidden stuff” (generate the observed data from hidden stuff); or <strong>joint</strong> models, \(P(c, d)\).</p>
+<p><strong>Discriminative models</strong> take the data as given, and put a probability over hidden structure given the data (use the observed data to calculate and put probabilities on hidden stuff, such as classes in classification); or <strong>conditional</strong> models, \(P(c|d)\). Includes logistic regression, conditional loglinear, <strong>maxent models</strong>.</p>
+<h1 id="features">Features</h1>
+<p>A feature is a function: \(f: C \times D \rightarrow \mathbb{R}\) (\(C\): classes, \(D\): data (documents)). Usually we limit the range of features to \(\{0, 1\}\). The model assigns <strong>a weight</strong> \(\lambda_i\) to each feature \(f_i\). Positive weights: feature is likely correct, negative weights: likely incorrect.</p>
+<h1 id="conditional-likelihood-of-data">Conditional Likelihood of Data</h1>
+<p>In solving classification problems with exponential models (log-linear, maxent, logistic, Gibbs), the <strong>conditional likelihood</strong> (or “vote”) that a class \(c\) will get at a particular data item \(d\) (not necessarily a word) is defined as</p>
+<p>\[\begin{aligned}
+P(c|d, \lambda) = \frac{\exp \sum_i \lambda_i f_i(c, d)}{\sum_{c^{&#39;}} \exp \sum_i \lambda_i f_i(c^{&#39;}, d)}.\end{aligned}\]</p>
+<p>The denominator normalizes the votes, and therefore the votes can be deemed as probabilities. Suming up all the data points and using logarithms, we have the goal, the conditional log likelihood, for maximization:</p>
+<p>\[\begin{aligned}
+\log P(C | D, \lambda) &amp;= \sum_{(c, d) \in (C, D)} \log P(c|d, \lambda) \\
+&amp;= \sum_{(c, d) \in (C, D)} \log \frac{\exp \sum_i \lambda_i f_i(c, d)}{\sum_{c^{&#39;}} \exp \sum_i \lambda_i f_i(c^{&#39;}, d)}.\end{aligned}\]</p>
+<h1 id="maximizing-the-likelihood">Maximizing the Likelihood</h1>
+<p>Taking the partial derivative \(\log P(C|D, \lambda)\) with respect to \(\lambda_i\) and simplifying gives</p>
+<p>\[\begin{aligned}
+\frac{\partial \log P(C | D, \lambda)}{\partial \lambda_i} = \text{empiricalCnt}(f_i, C) - \text{predictedCnt}(f_i, \lambda). \end{aligned}\]</p>
+<h1 id="smoothing-l2-prior">Smoothing: L2 Prior</h1>
+<p>The <strong>gaussian prior</strong> (or <strong>\(L_2\) prior</strong>) is defined to be \[P(\lambda_i) = \frac{1}{\sigma_i \sqrt{2 \pi}} \exp (-\frac{(\lambda_i - \mu_i)^2}{2 \sigma_i^2})\] where \(\mu\) denotes the mean and \(\sigma^2\) denotes the variance. Ususally we take \(\mu = 0\) and \(2 \sigma^2 = 1\) (works very well).</p>
+<p>The maximization objective thus changes to</p>
+<p>\[\begin{aligned}
+\log P(C, \lambda | D) &amp;= \log P(C | D, \lambda) - \log P(\lambda) \\
+&amp;= \sum_{(c, d) \in (C, D)} \log P(c|d, \lambda) - \sum_i \frac{(\lambda_i - \mu_i)^2}{2 \sigma_i^2} + k.\end{aligned}\]</p>
+<p>Taking the partial derivative:</p>
+<p>\[\begin{aligned}
+\frac{\partial \log P(C, \lambda | D)}{\partial \lambda_i} = \text{empiricalCnt}(f_i, C) - \text{predictedCnt}(f_i, \lambda) - \frac{\lambda_i - \mu_i}{\sigma^2}.\end{aligned}\]</p>
+</body>
+</html>
