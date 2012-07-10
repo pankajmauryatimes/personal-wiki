@@ -21,7 +21,7 @@ Change <nowiki>A B</nowiki> to <nowiki>`A` # B</nowiki>.<br />
 == Commands ==
 * Use `@:` to repeat last colon command.
 * To resolve dos/unix format issues, use `:set ff=dos` and `:set ff=unix` (http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem).
-* File encoding issues: `:e! ++enc=utf-8`
+* File encoding issues (e.g. when Chinese characters are not properly displayed): try `:e ++enc=gbk`.
 
 == Datestamp ==
 Add<br />
@@ -41,4 +41,4 @@ Use `vim-gtk` or `vim-gnome` under linux (for instance, under `vim-basic` `"+y`,
 # http://www.linuxconfig.org/Vim_Tutorial 
 -------
 %title Vim Notes & Tricks - Covi
-Last Modified: February 06, 2012 18:54:24 
+Last Modified: Tue 10 Jul 2012 07:50:30 PM CST

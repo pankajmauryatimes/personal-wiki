@@ -1,47 +1,48 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-    <head>
-        <link rel="Stylesheet" type="text/css" href="style.css" />
-        <title>Vim Notes %title%amp; Tricks - Covi</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    </head>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>Vim Notes %title%amp; Tricks - Covi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
 <body>
+
 <h1 id="toc_1">Vim Notes &amp; Tricks</h1>
 
 <ul>
 <li>
 <a href="A tricky yank task study.html">Dealing with Kindle's My_Clipping.txt: A tricky yank task study</a>.
-</li>
+
 </ul>
 
 <h2 id="toc_1.1">My Vim Plugins</h2>
 <ul>
 <li>
 Pathogen. Elegant plugin manager.
-</li>
+
 <li>
 <a href="http://www.vim.org/scripts/script.php?script_id=39">Matchit.vim</a>, extended % matching for HTML, <a href="LaTeX.html">LaTeX</a>, and many other languages.
-</li>
+
 <li>
 <a href="http://www.vim.org/scripts/script.php?script_id=1697">surround.vim</a>, delete/change/add parentheses/quotes/xml-tags/much more with ease.
-</li>
+
 <li>
 ctags + <a href="http://www.vim.org/scripts/script.php?script_id=273">taglist</a>. Ctags is actually a standalone program, capable of generating a list of functions/variables/classes, i.e. 'tags', found in files in different languages. Taglist.vim displays the result in a vsplit (to get rid of the left-hand scroll bar when it is displayed, <code>:set guioptions-=L</code>). A list of ctags tricks <a href="http://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks">here</a>.
-</li>
+
 </ul>
 
 <h2 id="toc_1.2">Basic Editting Stuff</h2>
 <ul>
 <li>
 If some lines are highlighted in visual mode (checkout <code>visual-mode</code>), press <code>J</code> to join them altogether.
-</li>
+
 </ul>
 
 <h2 id="toc_1.3">Some Notes</h2>
 <ul>
 <li>
 I have read some help texts, many tutorials, and tried to program some simple task. But it seems very hard to get familiar with Vim scripts (Feb 03, 2011 13:48:33)
-</li>
+
 </ul>
 
 <h2 id="toc_1.4">Substitution</h2>
@@ -54,13 +55,13 @@ Change &lt;nowiki&gt;A B&lt;/nowiki&gt; to &lt;nowiki&gt;<code>A</code> # B&lt;/
 <ul>
 <li>
 Use <code>@:</code> to repeat last colon command.
-</li>
+
 <li>
 To resolve dos/unix format issues, use <code>:set ff=dos</code> and <code>:set ff=unix</code> (<a href="http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem">http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem</a>).
-</li>
+
 <li>
-File encoding issues: <code>:e! ++enc=utf-8</code>
-</li>
+File encoding issues (e.g. when Chinese characters are not properly displayed): try <code>:e ++enc=gbk</code>.
+
 </ul>
 
 <h2 id="toc_1.6">Datestamp</h2>
@@ -84,40 +85,27 @@ Use <code>vim-gtk</code> or <code>vim-gnome</code> under linux (for instance, un
 <ol>
 <li>
 Some tutorial videos here (<a href="http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/">http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/</a>).
-</li>
+
 <li>
 <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/</a>
-</li>
+
 <li>
 <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-intermediate-tutorial-videos/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-intermediate-tutorial-videos/</a>
-</li>
+
 <li>
 <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-advanced-tutorial-videos/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-advanced-tutorial-videos/</a>
-</li>
+
 <li>
 <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-plugin-showcase/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-plugin-showcase/</a>  
-</li>
+
 <li>
 <a href="http://www.linuxconfig.org/Vim_Tutorial">http://www.linuxconfig.org/Vim_Tutorial</a> 
-</li>
+
 </ol>
 <hr />
 <p>
-Last Modified: February 06, 2012 18:54:24 
+Last Modified: Tue 10 Jul 2012 07:50:30 PM CST
 </p>
 
 </body>
-
-<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-    tex2jax: {
-        inlineMath: [["$","$"],["\\(","\\)"]],
-        displayMath: [ ['$$','$$'], ['\[','\]'] ],
-        processEscapes: true
-    }
-  });
-</script>
-
 </html>
