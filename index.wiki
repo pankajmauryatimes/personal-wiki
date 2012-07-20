@@ -31,10 +31,8 @@ The Wiki records some academic notes and some of my interests.
   * [[wordcount][wordcount.py, with interesting results!]] wordcount.py is a small python program I wrote for fun. Check out the results!
 * [[LaTeX]], notes on !LaTeX.
 * [[Linux Notes][Notes on Linux]].
-* [[Physics]].
-* [[Statistics]].
-* [[Microeconomics]].
-* [[Macroeconomics]].
+* Some AP/Highschool stuff. [[Physics]].[[Statistics]].[[Microeconomics]].[[Macroeconomics]].
+* [[German]].
 
 == Tools + Geeky Stuff ==
 * [[Vim]]. _The_ editor. I don't edit things without it. [https://github.com/concretevitamin/vim_config My vimrc at Github].
@@ -57,4 +55,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 <!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
-Last Modified: June 10, 2012 00:08:48 
+Last Modified: Fri 20 Jul 2012 01:57:20 PM CST
