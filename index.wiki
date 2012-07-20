@@ -54,4 +54,5 @@ http://geotakucovi.com/mail0.png
 --------
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
-Last Modified: Fri 20 Jul 2012 02:13:38 PM CST
+<!-- Put cursor on "F" and press <F5> to renew the datestamp. -->
+Last Modified: July 20, 2012 14:24:52 
