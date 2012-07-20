@@ -15,7 +15,7 @@ The Wiki records some academic notes and some of my interests.
 * [[Reading][My Reading]]
 * [[Movies][Movies I've watched]]. I'm a (good-) movie semi-addict. It's itself a distinct art form, different from literary works or even the scripts. Movies = Watch, think, and enjoy.
 * [[music][Music I love]]. Jazz. Cantonese Pop. Albums and Pieces.
-## [[Pastebin][My Pastebin for Random Stuff]] (Only for personal use; not much value here.)
+%% [[Pastebin][My Pastebin for Random Stuff]] (Only for personal use; not much value here.)
 
 == Serious (or not so serious?) Stuff ==
 * [[Math]], notes on math.
@@ -54,5 +54,5 @@ http://geotakucovi.com/mail0.png
 --------
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
-## Put cursor on "F" and press <F5> to renew the datestamp. 
+%% Put cursor on "F" and press <F5> to renew the datestamp. 
 Last Modified: Fri 20 Jul 2012 06:16:52 PM CST
