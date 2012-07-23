@@ -1,14 +1,18 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-    <head>
-        <link rel="Stylesheet" type="text/css" href="style.css" />
-        <title>Solutions to Problems in The Art and Theory of Dynamic Programming - Covi</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    </head>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
+
+<title>Solutions to Problems in The Art and Theory of Dynamic Programming - Covi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
 <body>
+
 <h1 id="toc_1">The Book</h1>
 <p>
-The Art and Theory of Dynamic Programming (<a href="http://www.amazon.com/dynamic-programming-Mathematics-Science-Engineering/dp/0122218604">Amazon</a>), by Stuart E. Dreyfuse and Averill M. Law.
+The Art and Theory of Dynamic Programming ([<a href="http://www.amazon.com/dynamic-programming-Mathematics-Science-Engineering/dp/0122218604">http://www.amazon.com/dynamic-programming-Mathematics-Science-Engineering/dp/0122218604</a> Amazon]), by Stuart E. Dreyfuse and Averill M. Law.
 </p>
 
 <h1 id="toc_2">The Solutions</h1>
@@ -16,22 +20,22 @@ The Art and Theory of Dynamic Programming (<a href="http://www.amazon.com/dynami
 <h2 id="toc_2.1">1.1</h2>
 
 <p>
-Let $S(x, y)$ be the smallest distance from Point $A(0, 0)$ to $(x, y)$, and $a_d(x, y)$/$a_u(x, y)$ be the distance of the arc down/up from $(x, y)$.
-$S(0, 0) = 0$; Final answer: $min{S(4, j)}$
+Let \(S(x, y)\) be the smallest distance from Point \(A(0, 0)\) to \((x, y)\), and \(a_d(x, y)\)/\(a_u(x, y)\) be the distance of the arc down/up from \((x, y)\).
+\(S(0, 0) = 0\); Final answer: \(min{S(4, j)}\)
 </p>
 
 <p>
-$S(x, y) = min\{a_d(x - 1, y + 1) + S(x - 1, y + 1), a_u(x - 1, y - 1) + S(x - 1, y - 1)\}.$
+\(S(x, y) = min\{a_d(x - 1, y + 1) + S(x - 1, y + 1), a_u(x - 1, y - 1) + S(x - 1, y - 1)\}.\)
 </p>
 
 <h2 id="toc_2.2">1.2</h2>
 
 <p>
-In addition to 1.1, denote $r(x, y)$ as the "bonus value" at $(x, y)$; all $r(x, y) = 0$ except those specified by the problem.
+In addition to 1.1, denote \(r(x, y)\) as the "bonus value" at \((x, y)\); all \(r(x, y) = 0\) except those specified by the problem.
 </p>
 
 <p>
-$S(x, y) = min\{a_d(x - 1, y + 1) + S(x - 1, y + 1), a_u(x - 1, y - 1) + S(x - 1, y - 1)\} + r(x, y).$
+\(S(x, y) = min\{a_d(x - 1, y + 1) + S(x - 1, y + 1), a_u(x - 1, y - 1) + S(x - 1, y - 1)\} + r(x, y).\)
 </p>
 
 <h2 id="toc_2.3">1.3</h2>
@@ -41,7 +45,7 @@ Notice the definition of N: Fig 1.3 is actually a N=4 case.
 </p>
 
 <p>
-DP requires $2N + (\frac{N(N + 1)}{2} - 2N)*2 = n^2 - n$ additions, and $(\frac{N(N + 1)}{2} - 2N) + N$ comparisons; Brute-force computes $2^N$ paths and thus requires $N \cdot 2^N$ additions and $2^N - 1$ comparisons.
+DP requires \(2N + (\frac{N(N + 1)}{2} - 2N)*2 = n^2 - n\) additions, and \((\frac{N(N + 1)}{2} - 2N) + N\) comparisons; Brute-force computes \(2^N\) paths and thus requires \(N \cdot 2^N\) additions and \(2^N - 1\) comparisons.
 <hr />
 Last Modified: October 22, 2011 09:56:23 
 </p>

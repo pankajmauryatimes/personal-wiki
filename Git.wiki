@@ -1,6 +1,6 @@
 = Git =
 
-I live push my entire wiki from my local computer to this website and https://github.com/concretevitamin/personal-wiki. Check out how [[About][Here]].
+I live push my entire wiki from my local computer to this website and https://github.com/concretevitamin/personal-wiki. Check out how [[About|Here]].
 
 [http://progit.org/book/ Pro Git], THE tutorial.
 

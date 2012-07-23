@@ -15,7 +15,7 @@ screen, tmux, conqueterm vim plugin, awesome, xmonad
 * If you want to display anything when a terminal is called up (greetings, todo's, date, etc.), put the echo statements into the `.bashrc` file.
 
 == Tricks/Tasks ==
-- [[run_command][Automatically run commands after Linux starts]].
+- [[run_command][/|/gAutomatically run commands after Linux starts]].
 
 == Commands ==
 *ls*<br />

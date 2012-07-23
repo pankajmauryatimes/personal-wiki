@@ -2,16 +2,19 @@
 <html>
 <head>
 <link rel="Stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
+
 <title>Vim Notes %title%amp; Tricks - Covi</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
+
 <body>
 
 <h1 id="toc_1">Vim Notes &amp; Tricks</h1>
 
 <ul>
 <li>
-<a href="A tricky yank task study.html">Dealing with Kindle's My_Clipping.txt: A tricky yank task study</a>.
+<a href="A tricky yank task study][/|/g/">/gDealing with Kindle's My_Clipping.txt: A tricky yank task study</a>.
 
 </ul>
 
@@ -21,13 +24,13 @@
 Pathogen. Elegant plugin manager.
 
 <li>
-<a href="http://www.vim.org/scripts/script.php?script_id=39">Matchit.vim</a>, extended % matching for HTML, <a href="LaTeX.html">LaTeX</a>, and many other languages.
+[<a href="http://www.vim.org/scripts/script.php?script_id=39">http://www.vim.org/scripts/script.php?script_id=39</a> Matchit.vim], extended % matching for HTML, LaTeX, and many other languages.
 
 <li>
-<a href="http://www.vim.org/scripts/script.php?script_id=1697">surround.vim</a>, delete/change/add parentheses/quotes/xml-tags/much more with ease.
+[<a href="http://www.vim.org/scripts/script.php?script_id=1697">http://www.vim.org/scripts/script.php?script_id=1697</a> surround.vim], delete/change/add parentheses/quotes/xml-tags/much more with ease.
 
 <li>
-ctags + <a href="http://www.vim.org/scripts/script.php?script_id=273">taglist</a>. Ctags is actually a standalone program, capable of generating a list of functions/variables/classes, i.e. 'tags', found in files in different languages. Taglist.vim displays the result in a vsplit (to get rid of the left-hand scroll bar when it is displayed, <code>:set guioptions-=L</code>). A list of ctags tricks <a href="http://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks">here</a>.
+ctags + [<a href="http://www.vim.org/scripts/script.php?script_id=273">http://www.vim.org/scripts/script.php?script_id=273</a> taglist]. Ctags is actually a standalone program, capable of generating a list of functions/variables/classes, i.e. 'tags', found in files in different languages. Taglist.vim displays the result in a vsplit (to get rid of the left-hand scroll bar when it is displayed, <code>:set guioptions-=L</code>). A list of ctags tricks [<a href="http://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks">http://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks</a> here].
 
 </ul>
 
@@ -57,7 +60,7 @@ Change &lt;nowiki&gt;A B&lt;/nowiki&gt; to &lt;nowiki&gt;<code>A</code> # B&lt;/
 Use <code>@:</code> to repeat last colon command.
 
 <li>
-To resolve dos/unix format issues, use <code>:set ff=dos</code> and <code>:set ff=unix</code> (<a href="http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem">http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem</a>).
+To resolve dos/unix format issues, use <code>:set ff=dos</code> and <code>:set ff=unix</code> (<a href="http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem).">http://stackoverflow.com/questions/4633564/vim-mac-vs-linux-m-problem).</a>
 
 <li>
 File encoding issues (e.g. when Chinese characters are not properly displayed): try <code>:e ++enc=gbk</code>.
@@ -72,7 +75,7 @@ Add<br />
 nnoremap &lt;F5&gt; 3wv$"=strftime("%c")&lt;CR&gt;P
 </blockquote>
 <p>
-to your <code>VIMRC</code>. Place cursor on the head of "Last Modified" line and &lt;F5&gt;. See <a href="http_//vim.wikia.com/wiki/Insert_current_date_or_time.html">also</a>. 
+to your <code>VIMRC</code>. Place cursor on the head of "Last Modified" line and &lt;F5&gt;. See <a href="http://vim.wikia.com/wiki/Insert_current_date_or_time">also</a>. 
 </p>
 
 <h2 id="toc_1.7">Linux-related</h2>
@@ -84,7 +87,7 @@ Use <code>vim-gtk</code> or <code>vim-gnome</code> under linux (for instance, un
 <h2 id="toc_1.8">Useful Links &amp; Resouces</h2>
 <ol>
 <li>
-Some tutorial videos here (<a href="http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/">http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/</a>).
+Some tutorial videos here (<a href="http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/).">http://ontwik.com/tools/vim-from-novice-to-professional-by-derek-wyatt-p1/).</a>
 
 <li>
 <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/">http://www.derekwyatt.org/vim/vim-tutorial-videos/vim-novice-tutorial-videos/</a>
@@ -108,4 +111,17 @@ Last Modified: Tue 10 Jul 2012 07:50:30 PM CST
 </p>
 
 </body>
+
+<script src="http://geotakucovi.com/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [["$","$"],["\\(","\\)"]],
+        displayMath: [ ['$$','$$'], ['\[','\]'] ],
+        processEscapes: true
+    }
+  });
+</script>
+
 </html>

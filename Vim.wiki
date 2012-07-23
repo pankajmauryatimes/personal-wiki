@@ -1,6 +1,6 @@
 = Vim Notes & Tricks =
 
-* [[A tricky yank task study][Dealing with Kindle's My_Clipping.txt: A tricky yank task study]].
+* [[A tricky yank task study][/|/gDealing with Kindle's My_Clipping.txt: A tricky yank task study]].
 
 == My Vim Plugins ==
 * Pathogen. Elegant plugin manager.

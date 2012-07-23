@@ -11,26 +11,26 @@ This personal Wiki is constructed and maintained with [http://www.vim.org/ Vim] 
 The Wiki records some academic notes and some of my interests.
 
 == Me ==
-* [[me][About Me]]
-* [[Reading][My Reading]]
-* [[Movies][Movies I've watched]]. I'm a (good-) movie semi-addict. It's itself a distinct art form, different from literary works or even the scripts. Movies = Watch, think, and enjoy.
-* [[music][Music I love]]. Jazz. Cantonese Pop. Albums and Pieces.
-%% [[Pastebin][My Pastebin for Random Stuff]] (Only for personal use; not much value here.)
+* [[me|About Me]]
+* [[Reading|My Reading]]
+* [[Movies|Movies I've watched]]. I'm a (good-) movie semi-addict. It's itself a distinct art form, different from literary works or even the scripts. Movies = Watch, think, and enjoy.
+* [[music|Music I love]]. Jazz. Cantonese Pop. Albums and Pieces.
+%% [[Pastebin|My Pastebin for Random Stuff]] (Only for personal use; not much value here.)
 
 == Serious (or not so serious?) Stuff ==
 * [[Math]], notes on math.
-  * [[calculus][Calculus]], notes on calculus.
+  * [[calculus|Calculus]], notes on calculus.
   * [[Combinatorics]], notes/problems/solutions/questions on combinatorics.
   * [[Modeling]].
 * Computer Science (Github (codes, projects, work): https://github.com/concretevitamin/)
-  * [[Machine Learning Notes][Machine Learning (ML)]]. [[NLP Notes][Natural Language Processing (NLP)]].
-  * (Other Notes) [[NOIP Notes][Some basic notes]].  [[Python Notes]].  [[AP Computer Science]].  [[Graph Theory and Algorithms]].  [[gcc][Notes on gcc/g++]]. 
-  * [[ProjectEuler][My Project Euler Codes]]. [[snippets][Collection of Code Snippets]].
-  * [[NOIP 2011 Prep][My Preparation for NOIP 2011]].
-  * [[Sol To DP Book][Solutions to Problems in The Art and Theory of Dynamic Programming]]. 
-  * [[wordcount][wordcount.py, with interesting results!]] wordcount.py is a small python program I wrote for fun. Check out the results!
+  * [[Machine Learning Notes|Machine Learning (ML)]]. [[NLP Notes|Natural Language Processing (NLP)]].
+  * (Other Notes) [[NOIP Notes|Some basic notes]].  [[Python Notes]].  [[AP Computer Science]].  [[Graph Theory and Algorithms]].  [[gcc|Notes on gcc/g++]]. 
+  * [[ProjectEuler|My Project Euler Codes]]. [[snippets|Collection of Code Snippets]].
+  * [[NOIP 2011 Prep|My Preparation for NOIP 2011]].
+  * [[Sol To DP Book|Solutions to Problems in The Art and Theory of Dynamic Programming]]. 
+  * [[wordcount|wordcount.py, with interesting results!]] wordcount.py is a small python program I wrote for fun. Check out the results!
 * [[LaTeX]], notes on !LaTeX.
-* [[Linux Notes][Notes on Linux]].
+* [[Linux Notes|Notes on Linux]].
 * Some AP/Highschool stuff. [[Physics]].[[Statistics]].[[Microeconomics]].[[Macroeconomics]].
 * [[German]].
 
@@ -45,8 +45,8 @@ The Wiki records some academic notes and some of my interests.
 * [[Kindle]]. I am an ardent Kindle advocate.
 
 == About ==
-  - [[About][About the Maintenance of this Personal Knowledge Base]]. Check out how I use Git, Vimwiki, cron, and several other fantastic tools to maintain this Wiki here. 
-  - [[log][Site Maintenance Log]].
+  - [[About|About the Maintenance of this Personal Knowledge Base]]. Check out how I use Git, Vimwiki, cron, and several other fantastic tools to maintain this Wiki here. 
+  - [[log|Site Maintenance Log]].
  
 == Contact ==
 http://geotakucovi.com/mail0.png
@@ -55,4 +55,4 @@ http://geotakucovi.com/mail0.png
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 %% Put cursor on "F" and press <F5> to renew the datestamp. 
-Last Modified: Fri 20 Jul 2012 06:16:52 PM CST
+Last Modified: Mon 23 Jul 2012 01:19:03 PM CST

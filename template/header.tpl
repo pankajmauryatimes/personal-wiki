@@ -2,6 +2,8 @@
 <html>
     <head>
         <link rel="Stylesheet" type="text/css" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
+
         <title>%title%</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     </head>

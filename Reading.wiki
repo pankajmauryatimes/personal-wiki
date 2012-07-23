@@ -2,7 +2,7 @@
 
 This Sub-wiki contains my thoughts and notes when reading. It also records a list of my reading of different fields.
 
-These books and short passages are mostly read on [[Kindle][My Kindle]]. Check to see how I [[A tricky yank task study][deal with notes and highlights on Kindle]]. Some of them are assignments from my English II (Honor English) class.
+These books and short passages are mostly read on [[Kindle|My Kindle]]. Check to see how I [[A tricky yank task study|deal with notes and highlights on Kindle]]. Some of them are assignments from my English II (Honor English) class.
 
 == American Literature == 
 * Ethan Frome, by Edith Wharton; finished in Dec 2010.
@@ -12,7 +12,7 @@ These books and short passages are mostly read on [[Kindle][My Kindle]]. Check t
 == Pieces, Essays, Short Stories ==
 * [[An Occurrence at Owl Creek Bridge]], Ambrose Bierce.
 * [[A Mystery of Heroism]], Stephen Crane.
-* _Such, Such were the Joys_, George Orwell. (See also [[wordcount][here]].)
+* _Such, Such were the Joys_, George Orwell. (See also [[wordcount|here]].)
 * _Why I Write_, George Orwell.
 
 == English Literature ==

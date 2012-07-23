@@ -5,10 +5,10 @@
 * [[friends problem]] (graph theory)
 
 
-*Read List*
+*read List*
 * http://math.stackexchange.com/questions/11002/cn-p-even-or-odd
 
-[[calculus][Calculus]] [[Combinatorics]]
+[[calculus][/|/gCalculus]] [[Combinatorics]]
 
 *Functions*
 * For a function _f_, `x |-> y` means `f(x) = y`. (\mapsto 映射到)
