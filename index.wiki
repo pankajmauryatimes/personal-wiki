@@ -1,14 +1,13 @@
-= Welcome to Covi's Personal Knowledge Base Wiki! =
+= Hi. Welcome to Covi's Personal Wiki. =
 
     ``The greater danger for most of us lies not in setting our aim too high and falling short; but in setting our aim too low, and achieving our mark.'' -- Michelangelo Buonarroti
 
     ``To strive, to seek, to find, and not to yield.'' -- Ulysses
 
-Hi! My name is *Zongheng Yang*, a high school senior in [http://www.shenzhong.net Shenzhen Middle School], Shenzhen, China ([http://maps.google.com/maps?q=shenzhen,+china&hl=en&client=firefox-a&gl=us&z=10&vpsrc=0 Google Maps]). 
+Hi and _Willkommen_! My name is *Zongheng Yang*, a [[http://www.shenzhong.net|Shenzhen Middle School]] ([[http://maps.google.com/maps?q=shenzhen,+china&hl=en&client=firefox-a&gl=us&z=10&vpsrc=0|Google Maps: Shenzhen, China]]) '12 alumni, and [[http://berkeley.edu|UC Berkeley]] '16.
 
-This personal Wiki is constructed and maintained with [http://www.vim.org/ Vim] + [http://code.google.com/p/vimwiki/ Vimwiki] + [http://git-scm.com Git] and several other tools, which enable me to add something to my personal knowledge base within no more than 10 manipulative keystrokes, and yes, no mouse needed! Check out more here: [[About]].
+The Wiki records *some academic notes and some of my personal interests*. It is constructed and maintained with the great help of [[http://www.vim.org/|Vim]] + [[http://code.google.com/p/vimwiki/|Vimwiki]] + [[http://git-scm.com|Git]] and several other tools, which enable me to add something to my personal knowledge base within no more than 10 keystrokes. (And yes, no mouse needed! Check out how here: [[About]].)
 
-The Wiki records some academic notes and some of my interests.
 
 == Me ==
 * [[me|About Me]]
@@ -29,19 +28,19 @@ The Wiki records some academic notes and some of my interests.
   * [[NOIP 2011 Prep|My Preparation for NOIP 2011]].
   * [[Sol To DP Book|Solutions to Problems in The Art and Theory of Dynamic Programming]]. 
   * [[wordcount|wordcount.py, with interesting results!]] wordcount.py is a small python program I wrote for fun. Check out the results!
-* [[LaTeX]], notes on !LaTeX.
+* [[LaTeX]], notes on LaTeX.
 * [[Linux Notes|Notes on Linux]].
-* Some AP/Highschool stuff. [[Physics]].[[Statistics]].[[Microeconomics]].[[Macroeconomics]].
+* Some AP/Highschool stuff. [[Physics]]. [[Statistics]]. [[Microeconomics]]. [[Macroeconomics]].
 * [[German]].
 
 == Tools + Geeky Stuff ==
-* [[Vim]]. _The_ editor. I don't edit things without it. [https://github.com/concretevitamin/vim_config My vimrc at Github].
+* [[Vim]]. _The_ editor. I don't edit things without it. [[https://github.com/concretevitamin/vim_config|My vimrc at Github]].
   * [[Vimwiki]], an extension for Vim that enables editting and maintaining a personal Wiki.
   * [[Vimperator]], a Firefox extension that renders browsing utimately pleasant.
 * [[Filezilla]]
-* [[Irssi]], a solid [http://en.wikipedia.org/wiki/Internet_Relay_Chat IRC] client.
+* [[Irssi]], a solid [[http://en.wikipedia.org/wiki/Internet_Relay_Chat|IRC]] client.
 * [[Git]]. I'm learning this powerful VCS. 
-* [[MathJax with Vimwiki]]. Check out how I set up !MathJax with Vimwiki here, so I can display cool math such as $a^2 = b^2 + c^2$.
+* [[MathJax with Vimwiki]]. Check out how I set up MathJax with Vimwiki here, so I can display cool math such as $a^2 = b^2 + c^2$.
 * [[Kindle]]. I am an ardent Kindle advocate.
 
 == About ==
@@ -49,10 +48,10 @@ The Wiki records some academic notes and some of my interests.
   - [[log|Site Maintenance Log]].
  
 == Contact ==
-http://geotakucovi.com/mail0.png
+{{http://geotakucovi.com/mail0.png}}
 
 --------
 %title Covi's Personal Knowledge Base Wiki
 Created Date: Jan 31, 2011.<br />
 %% Put cursor on "F" and press <F5> to renew the datestamp. 
-Last Modified: Mon 23 Jul 2012 01:19:03 PM CST
+Last Modified: Tue 24 Jul 2012 07:51:25 PM CST
